@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="400" height="460" role="img" aria-label="A grey cat wearing a red top hat">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#fef6e4"/>
+      <stop offset="100%" stop-color="#f6d6a8"/>
+    </radialGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9aa4ad"/>
+      <stop offset="100%" stop-color="#778591"/>
+    </linearGradient>
+    <linearGradient id="hat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e5484d"/>
+      <stop offset="100%" stop-color="#b81f24"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="400" height="460" fill="url(#bg)"/>
+  <circle cx="200" cy="170" r="150" fill="#ffffff" opacity="0.25"/>
+
+  <!-- body -->
+  <path d="M110 460 Q110 320 200 320 Q290 320 290 460 Z" fill="url(#fur)"/>
+  <path d="M110 460 Q150 360 200 360 Q250 360 290 460 Z" fill="#e9eef2" opacity="0.9"/>
+
+  <!-- tail -->
+  <path d="M285 440 Q360 410 330 340 Q322 320 305 332 Q330 380 270 410 Z" fill="url(#fur)"/>
+
+  <!-- ears -->
+  <path d="M118 150 L150 70 L185 140 Z" fill="url(#fur)"/>
+  <path d="M282 150 L250 70 L215 140 Z" fill="url(#fur)"/>
+  <path d="M132 142 L152 95 L172 134 Z" fill="#f3b3c4"/>
+  <path d="M268 142 L248 95 L228 134 Z" fill="#f3b3c4"/>
+
+  <!-- head -->
+  <ellipse cx="200" cy="195" rx="95" ry="85" fill="url(#fur)"/>
+
+  <!-- cheeks -->
+  <ellipse cx="158" cy="230" rx="34" ry="26" fill="#e9eef2" opacity="0.85"/>
+  <ellipse cx="242" cy="230" rx="34" ry="26" fill="#e9eef2" opacity="0.85"/>
+
+  <!-- eyes -->
+  <ellipse cx="165" cy="190" rx="20" ry="24" fill="#ffffff"/>
+  <ellipse cx="235" cy="190" rx="20" ry="24" fill="#ffffff"/>
+  <circle cx="167" cy="194" r="12" fill="#3a7d44"/>
+  <circle cx="233" cy="194" r="12" fill="#3a7d44"/>
+  <circle cx="167" cy="194" r="6" fill="#16240f"/>
+  <circle cx="233" cy="194" r="6" fill="#16240f"/>
+  <circle cx="171" cy="189" r="3" fill="#ffffff"/>
+  <circle cx="237" cy="189" r="3" fill="#ffffff"/>
+
+  <!-- nose & mouth -->
+  <path d="M192 220 L208 220 L200 232 Z" fill="#f3859b"/>
+  <path d="M200 232 Q200 245 184 245 M200 232 Q200 245 216 245" fill="none" stroke="#5a6670" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- whiskers -->
+  <g stroke="#5a6670" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <path d="M150 225 Q110 218 92 224"/>
+    <path d="M150 235 Q112 236 95 246"/>
+    <path d="M250 225 Q290 218 308 224"/>
+    <path d="M250 235 Q288 236 305 246"/>
+  </g>
+
+  <!-- hat -->
+  <ellipse cx="200" cy="118" rx="120" ry="22" fill="#7a1418"/>
+  <ellipse cx="200" cy="112" rx="120" ry="22" fill="url(#hat)"/>
+  <path d="M138 112 Q138 30 200 30 Q262 30 262 112 Z" fill="url(#hat)"/>
+  <rect x="138" y="86" width="124" height="22" fill="#2b2b2b"/>
+  <rect x="138" y="86" width="124" height="6" fill="#000000" opacity="0.4"/>
+  <rect x="236" y="84" width="20" height="26" rx="3" fill="#f4c542"/>
+  <path d="M150 50 Q170 40 196 42" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+</svg>
