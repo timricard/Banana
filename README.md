@@ -1,15 +1,18 @@
 # nano-banana-json-prompting
 
-A Claude Code plugin that converts natural language descriptions into structured
-JSON schemas for **Nano Banana Pro (Gemini 3 Pro Image)**. JSON prompting gives
-precise, reproducible control over image generation — the same spec produces the
-same result, and you can iterate on a single element without regenerating
-everything else.
+A Claude Code plugin with two skills for working with **Nano Banana Pro
+(Gemini 3 Pro Image)** — one that turns plain English into precise, reproducible
+JSON specs, and one that actually renders images via the Gemini API and saves
+them into your project.
 
 ## What it does
 
-The plugin ships a single skill, `json-prompting-for-nano-banana`, that acts as a
-translator from plain-English requests into one of five schema types:
+### `json-prompting-for-nano-banana` — write a spec
+
+Translates plain-English requests into one of five structured JSON schema types.
+JSON prompting gives precise, reproducible control — the same spec produces the
+same result, and you can iterate on a single element without regenerating
+everything else.
 
 | Schema | Use for |
 |--------|---------|
@@ -18,6 +21,15 @@ translator from plain-English requests into one of five schema types:
 | `diagram_spec` | Flowcharts, architecture diagrams, process maps |
 | `data_viz` | Charts and graphs where numerical accuracy matters |
 | `social_graphic` | Platform-specific social posts with text overlays |
+
+### `nano-banana-pro` — render an image
+
+Calls Google's Gemini 3 Pro Image model (`gemini-3-pro-image-preview`) to
+generate a PNG/JPG and save it into your project — hero images, OG/social
+images, illustrations, icons, backgrounds, product mockups, or edits/compositions
+of existing images. Requires a `GEMINI_API_KEY` (or Vertex AI auth) and the
+`google-genai` + `pillow` Python deps. See
+[`skills/nano-banana-pro/README.md`](skills/nano-banana-pro/README.md) for setup.
 
 ## Installation
 
@@ -47,6 +59,17 @@ with the "Thinking" model, or Google AI Studio) with the instruction:
 To iterate, modify specific fields (lighting, camera angle, theme colors, data
 values, …) and re-render. See the skill for detailed iteration patterns.
 
+For the `nano-banana-pro` rendering skill, after loading the plugin, install its
+deps and set an API key (one-time):
+
+```bash
+bash "${CLAUDE_PLUGIN_ROOT}/skills/nano-banana-pro/install.sh"
+export GEMINI_API_KEY=your_key_here
+```
+
+Then ask naturally — e.g. *"generate a 16:9 hero image of a misty pine forest at
+sunrise and save it to public/hero.png"* — and Claude runs the bundled script.
+
 ## Layout
 
 ```
@@ -54,12 +77,18 @@ values, …) and re-render. See the skill for detailed iteration patterns.
 ├── .claude-plugin/
 │   └── plugin.json                       # plugin manifest
 ├── skills/
-│   └── json-prompting-for-nano-banana/
-│       └── SKILL.md                      # the translator skill
+│   ├── json-prompting-for-nano-banana/
+│   │   └── SKILL.md                      # NL → JSON spec translator
+│   └── nano-banana-pro/
+│       ├── SKILL.md                      # renders images via the Gemini API
+│       ├── generate_image.py             # bundled generation script
+│       ├── install.sh                    # installs Python deps
+│       ├── requirements.txt
+│       └── README.md
 └── README.md
 ```
 
 ## Credits
 
-The skill is derived from
+The `json-prompting-for-nano-banana` skill is derived from
 [jawhnycooke/claude-code-nano-banana](https://github.com/jawhnycooke/claude-code-nano-banana).
