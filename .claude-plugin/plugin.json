@@ -1,0 +1,15 @@
+{
+  "name": "nano-banana-json-prompting",
+  "description": "Converts natural language descriptions into structured JSON schemas for Nano Banana Pro (Gemini 3 Pro Image). Provides a skill for generating reproducible, precisely-controlled prompts for marketing images, UI mockups, diagrams, data visualizations, and social media graphics.",
+  "version": "1.1.0",
+  "author": {
+    "name": "timricard"
+  },
+  "keywords": [
+    "nano-banana",
+    "gemini",
+    "image-generation",
+    "json-prompting",
+    "skill"
+  ]
+}
