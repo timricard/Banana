@@ -1,0 +1,141 @@
+{
+  "social_graphic": {
+    "meta": {
+      "spec_version": "1.0.0",
+      "title": "No Riding on the Sidewalk - Sandwich Board Sign",
+      "campaign": "sidewalk_safety",
+      "brand_name": "City Sidewalk Safety",
+      "usage_context": "print_signage"
+    },
+    "platform": "custom",
+    "dimensions": {
+      "width": 1200,
+      "height": 1800,
+      "unit": "px",
+      "print_size": "24in x 36in portrait, 300 DPI",
+      "notes": "A-frame sandwich board face; design is duplicated on both panels"
+    },
+    "background": {
+      "type": "solid",
+      "color": "#FFFFFF",
+      "border": {
+        "color": "#111827",
+        "width": 20,
+        "radius": 56,
+        "notes": "Heavy dark border for high visibility and weatherproof framing"
+      }
+    },
+    "text_layers": [
+      {
+        "id": "headline_band",
+        "content": "NO RIDING ON THE SIDEWALK",
+        "position": "top_center",
+        "offset_y": 190,
+        "style": {
+          "font_family": "Arial Black",
+          "font_weight": "black",
+          "font_size": 120,
+          "color": "#FFFFFF",
+          "background_color": "#D62828",
+          "text_align": "center",
+          "max_width": 1100,
+          "line_height": 1.05,
+          "letter_spacing": 2,
+          "notes": "Reversed white type on a full-width red safety band"
+        }
+      },
+      {
+        "id": "subhead",
+        "content": "Bikes • Scooters • Skateboards",
+        "position": "center",
+        "offset_y": 470,
+        "style": {
+          "font_family": "Arial",
+          "font_weight": "bold",
+          "font_size": 68,
+          "color": "#111827",
+          "text_align": "center",
+          "max_width": 1000
+        }
+      },
+      {
+        "id": "instruction",
+        "content": "Please walk them on the sidewalk",
+        "position": "center",
+        "offset_y": 570,
+        "style": {
+          "font_family": "Arial",
+          "font_weight": "regular",
+          "font_size": 60,
+          "color": "#374151",
+          "text_align": "center",
+          "max_width": 1000
+        }
+      },
+      {
+        "id": "cta",
+        "content": "THANK YOU",
+        "position": "bottom_center",
+        "offset_y": -220,
+        "style": {
+          "font_family": "Arial",
+          "font_weight": "bold",
+          "font_size": 60,
+          "color": "#FFFFFF",
+          "background_color": "#111827",
+          "padding": "24px 60px",
+          "border_radius": 72,
+          "text_align": "center",
+          "letter_spacing": 4
+        }
+      },
+      {
+        "id": "footer",
+        "content": "For everyone's safety • Keep our sidewalks pedestrian-friendly",
+        "position": "bottom_center",
+        "offset_y": -80,
+        "style": {
+          "font_family": "Arial",
+          "font_weight": "regular",
+          "font_size": 36,
+          "color": "#6B7280",
+          "text_align": "center",
+          "max_width": 1100
+        }
+      }
+    ],
+    "visual_elements": [
+      {
+        "id": "prohibition_icon",
+        "type": "icon",
+        "position": "center",
+        "offset_y": -40,
+        "size": { "width": 700, "height": 700 },
+        "description": "Universal prohibition symbol: a solid red ring with a diagonal red slash (top-left to bottom-right) over a black bicycle silhouette. Clean, flat, high-contrast, no gradients.",
+        "effects": ["subtle_drop_shadow"]
+      }
+    ],
+    "brand": {
+      "primary_colors": ["#D62828", "#111827", "#FFFFFF"],
+      "fonts": ["Arial Black", "Arial"]
+    },
+    "style": {
+      "mood": "authoritative, friendly, high-visibility",
+      "keywords": [
+        "flat design",
+        "high contrast",
+        "readable from a distance",
+        "prohibition sign",
+        "public safety",
+        "weatherproof signage"
+      ]
+    },
+    "constraints": {
+      "lock_text_content": true,
+      "lock_brand_elements": true,
+      "allow_color_variation": false,
+      "allow_layout_adjustment": "minor",
+      "accessibility": "Maintain WCAG AA contrast; headline legible at 20+ feet"
+    }
+  }
+}
