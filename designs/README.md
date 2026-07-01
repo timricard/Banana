@@ -13,11 +13,21 @@ skateboarders not to ride on the sidewalk.
 ## Design at a glance
 
 - **Format:** 24" × 36" portrait, one face duplicated on both panels of the A-frame.
-- **Headline:** `NO RIDING ON THE SIDEWALK` — white type on a full-width red safety band.
-- **Icon:** Universal prohibition symbol (red ring + slash) over a black bicycle silhouette.
-- **Sub-messaging:** `Bikes • Scooters • Skateboards` / `Please walk them on the sidewalk`.
-- **Close:** `THANK YOU` pill + safety footer line.
-- **Palette:** Red `#D62828`, near-black `#111827`, white `#FFFFFF` — high contrast, readable from 20+ feet.
+- **Shown in context:** the mockup renders the sign as a real A-frame on a sidewalk, with hinge, rear leg, and contact shadow.
+- **Headline:** `NO RIDING / ON THE SIDEWALK` — white type on a red safety band with a subtle gradient.
+- **Icons:** a large bicycle prohibition symbol, flanked by smaller scooter and skateboard badges — understandable without reading a word.
+- **Sub-messaging:** `Please walk your wheels here` / `Bikes · Scooters · Skateboards · E-bikes`.
+- **Close:** `THANK YOU` pill.
+- **Palette:** Red `#C21F1F`/`#E23A3A`, near-black `#161C24`, white `#FFFFFF` — high contrast, readable from 25+ feet.
+
+## Iteration handles (JSON)
+
+The spec exposes named handles so you can change one thing without redoing the rest:
+
+- `swap_primary_vehicle` — bike → scooter / skateboard / e-bike
+- `recolor_band` — swap the red band for another jurisdiction's palette
+- `localize_authority` — add a city / park name or ordinance number
+- `tone_shift` — switch `THANK YOU` for an enforcement line like `FINE $XX`
 
 ## Using the JSON spec
 

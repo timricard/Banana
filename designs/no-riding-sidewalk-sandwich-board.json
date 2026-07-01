@@ -1,122 +1,166 @@
 {
   "social_graphic": {
     "meta": {
-      "spec_version": "1.0.0",
-      "title": "No Riding on the Sidewalk - Sandwich Board Sign",
+      "spec_version": "2.0.0",
+      "title": "No Riding on the Sidewalk - A-Frame Sandwich Board",
       "campaign": "sidewalk_safety",
       "brand_name": "City Sidewalk Safety",
-      "usage_context": "print_signage"
+      "usage_context": "print_signage",
+      "description": "Weatherproof A-frame sandwich board that instructs cyclists, scooter, skateboard, and e-bike riders to dismount and walk on the sidewalk. Rendered on location on a real sidewalk for context."
     },
     "platform": "custom",
     "dimensions": {
       "width": 1200,
       "height": 1800,
       "unit": "px",
-      "print_size": "24in x 36in portrait, 300 DPI",
-      "notes": "A-frame sandwich board face; design is duplicated on both panels"
+      "print_size": "24in x 36in portrait face, 300 DPI",
+      "notes": "Single face; duplicate identically on both A-frame panels. Bleed 0.125in on all sides."
+    },
+    "render_context": {
+      "scene": "A-frame sandwich board standing on a clean concrete sidewalk, mid-morning soft daylight, shallow depth of field with a softly blurred street background",
+      "camera": {
+        "angle": "three_quarter_front",
+        "framing": "medium_wide",
+        "focal_length_mm": 50,
+        "eye_level": "slightly_above_sign"
+      },
+      "grounding": ["soft contact shadow beneath frame", "visible A-frame hinge and rear leg"]
     },
     "background": {
       "type": "solid",
       "color": "#FFFFFF",
       "border": {
-        "color": "#111827",
-        "width": 20,
-        "radius": 56,
-        "notes": "Heavy dark border for high visibility and weatherproof framing"
+        "color": "#161C24",
+        "width": 22,
+        "radius": 40,
+        "style": "powder-coated steel frame",
+        "notes": "Heavy dark frame for visibility and durability"
       }
+    },
+    "layout": {
+      "grid": "single_column",
+      "zones": ["headline_band", "primary_icon", "secondary_icon_row", "instruction", "cta"],
+      "vertical_rhythm": "band 0-18%, primary icon 20-52%, icon row 54-70%, instruction 72-84%, cta 86-96%"
     },
     "text_layers": [
       {
-        "id": "headline_band",
-        "content": "NO RIDING ON THE SIDEWALK",
+        "id": "headline_primary",
+        "content": "NO RIDING",
         "position": "top_center",
-        "offset_y": 190,
+        "offset_y": 150,
         "style": {
           "font_family": "Arial Black",
           "font_weight": "black",
-          "font_size": 120,
+          "font_size": 150,
           "color": "#FFFFFF",
-          "background_color": "#D62828",
           "text_align": "center",
-          "max_width": 1100,
-          "line_height": 1.05,
           "letter_spacing": 2,
-          "notes": "Reversed white type on a full-width red safety band"
+          "notes": "Reversed white type on the red safety band"
         }
       },
       {
-        "id": "subhead",
-        "content": "Bikes • Scooters • Skateboards",
-        "position": "center",
-        "offset_y": 470,
+        "id": "headline_secondary",
+        "content": "ON THE SIDEWALK",
+        "position": "top_center",
+        "offset_y": 300,
         "style": {
-          "font_family": "Arial",
-          "font_weight": "bold",
-          "font_size": 68,
-          "color": "#111827",
+          "font_family": "Arial Black",
+          "font_weight": "black",
+          "font_size": 92,
+          "color": "#FFFFFF",
           "text_align": "center",
-          "max_width": 1000
+          "letter_spacing": 10
         }
       },
       {
         "id": "instruction",
-        "content": "Please walk them on the sidewalk",
+        "content": "Please walk your wheels here",
         "position": "center",
-        "offset_y": 570,
+        "offset_y": 520,
+        "style": {
+          "font_family": "Arial",
+          "font_weight": "bold",
+          "font_size": 68,
+          "color": "#161C24",
+          "text_align": "center",
+          "max_width": 1040
+        }
+      },
+      {
+        "id": "vehicle_list",
+        "content": "Bikes · Scooters · Skateboards · E-bikes",
+        "position": "center",
+        "offset_y": 610,
         "style": {
           "font_family": "Arial",
           "font_weight": "regular",
-          "font_size": 60,
-          "color": "#374151",
+          "font_size": 48,
+          "color": "#4A5560",
           "text_align": "center",
-          "max_width": 1000
+          "max_width": 1040
         }
       },
       {
         "id": "cta",
         "content": "THANK YOU",
         "position": "bottom_center",
-        "offset_y": -220,
+        "offset_y": -150,
         "style": {
           "font_family": "Arial",
           "font_weight": "bold",
-          "font_size": 60,
+          "font_size": 56,
           "color": "#FFFFFF",
-          "background_color": "#111827",
-          "padding": "24px 60px",
-          "border_radius": 72,
+          "background_color": "#161C24",
+          "padding": "22px 56px",
+          "border_radius": 60,
           "text_align": "center",
           "letter_spacing": 4
         }
-      },
+      }
+    ],
+    "bands": [
       {
-        "id": "footer",
-        "content": "For everyone's safety • Keep our sidewalks pedestrian-friendly",
-        "position": "bottom_center",
-        "offset_y": -80,
-        "style": {
-          "font_family": "Arial",
-          "font_weight": "regular",
-          "font_size": 36,
-          "color": "#6B7280",
-          "text_align": "center",
-          "max_width": 1100
+        "id": "safety_band",
+        "type": "full_width_block",
+        "region": "top",
+        "height_pct": 18,
+        "fill": {
+          "type": "gradient",
+          "direction": "vertical",
+          "colors": ["#E23A3A", "#C21F1F"]
         }
       }
     ],
     "visual_elements": [
       {
-        "id": "prohibition_icon",
-        "type": "icon",
+        "id": "icon_primary_bicycle",
+        "type": "prohibition_icon",
         "position": "center",
-        "offset_y": -40,
-        "size": { "width": 700, "height": 700 },
-        "description": "Universal prohibition symbol: a solid red ring with a diagonal red slash (top-left to bottom-right) over a black bicycle silhouette. Clean, flat, high-contrast, no gradients.",
+        "offset_y": 60,
+        "size": { "width": 560, "height": 560 },
+        "description": "Universal prohibition symbol: thick red ring with a red diagonal slash (top-left to bottom-right) over a flat black side-profile bicycle silhouette. Flat vector, no gradients on the icon.",
         "effects": ["subtle_drop_shadow"]
+      },
+      {
+        "id": "icon_scooter",
+        "type": "prohibition_icon",
+        "position": "center_left",
+        "offset_y": 380,
+        "size": { "width": 230, "height": 230 },
+        "description": "Smaller prohibition badge over a flat black kick-scooter silhouette."
+      },
+      {
+        "id": "icon_skateboard",
+        "type": "prohibition_icon",
+        "position": "center_right",
+        "offset_y": 380,
+        "size": { "width": 230, "height": 230 },
+        "description": "Smaller prohibition badge over a flat black skateboard silhouette."
       }
     ],
     "brand": {
-      "primary_colors": ["#D62828", "#111827", "#FFFFFF"],
+      "primary_colors": ["#C21F1F", "#161C24", "#FFFFFF"],
+      "accent_colors": ["#E23A3A", "#4A5560"],
       "fonts": ["Arial Black", "Arial"]
     },
     "style": {
@@ -124,18 +168,25 @@
       "keywords": [
         "flat design",
         "high contrast",
-        "readable from a distance",
+        "readable from 25 feet",
         "prohibition sign",
         "public safety",
-        "weatherproof signage"
+        "weatherproof signage",
+        "clean sans-serif"
       ]
+    },
+    "handles": {
+      "swap_primary_vehicle": "Replace icon_primary_bicycle silhouette (bike | scooter | skateboard | e-bike) without touching layout.",
+      "recolor_band": "Change bands.safety_band.fill.colors for a different jurisdiction palette.",
+      "localize_authority": "Add an optional footer text layer with city/park name or ordinance number.",
+      "tone_shift": "Swap cta content between 'THANK YOU' (friendly) and 'FINE $XX' (enforcement)."
     },
     "constraints": {
       "lock_text_content": true,
       "lock_brand_elements": true,
       "allow_color_variation": false,
       "allow_layout_adjustment": "minor",
-      "accessibility": "Maintain WCAG AA contrast; headline legible at 20+ feet"
+      "accessibility": "Maintain WCAG AA contrast; headline legible at 25+ feet; icons understandable without reading text"
     }
   }
 }
