@@ -33,3 +33,8 @@ instead of limewash.
   L-shaped **sectional** facing the TV, plus one matching boucle accent chair.
 - `sectional_plus_chair.png` — sectional with **cognac leather accent chairs** for warm contrast
   and flexible viewing seats.
+
+## Sectional on the non-fireplace side
+- `sectional_nonfireplace_side.png` — render 1's high-end scheme with the ivory boucle
+  sectional relocated to the **non-fireplace side** (left/foreground), so the brick fireplace
+  and its two windows stay fully open; accent chairs sit by the hearth, TV on the left console.
