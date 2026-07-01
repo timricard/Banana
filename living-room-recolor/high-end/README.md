@@ -27,3 +27,9 @@ wall. It has been corrected: the **TV console is on the left wall** (the credenz
 and the **brick fireplace sits centered between its two windows on the right wall** — matching
 the true room layout. `highend_TVwall_altbrick.png` is the same view with natural red brick
 instead of limewash.
+
+## Sectional variants
+- `sectional_pure.png` — the same corrected high-end TV-wall layout with a large ivory boucle
+  L-shaped **sectional** facing the TV, plus one matching boucle accent chair.
+- `sectional_plus_chair.png` — sectional with **cognac leather accent chairs** for warm contrast
+  and flexible viewing seats.
