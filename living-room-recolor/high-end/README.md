@@ -38,3 +38,10 @@ instead of limewash.
 - `sectional_nonfireplace_side.png` — render 1's high-end scheme with the ivory boucle
   sectional relocated to the **non-fireplace side** (left/foreground), so the brick fireplace
   and its two windows stay fully open; accent chairs sit by the hearth, TV on the left console.
+
+## Crate & Barrel "Tidal" sectional
+- `tidal_A.png` / `tidal_B.png` — the room with the Crate & Barrel **Tidal 2-Piece Sectional
+  with Chaise** (set-back arms, exposed stepped seat decks, light ash-wood plinth base, oatmeal
+  micro-chenille). Long section faces the TV for viewing; chaise on the non-fireplace (left/
+  foreground) side so the fireplace and its two windows stay open. ~$3,798; product page:
+  https://www.crateandbarrel.com/tidal-2-piece-sectional-sofa-with-chaise-lounge/s327203
