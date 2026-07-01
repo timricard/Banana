@@ -45,3 +45,9 @@ instead of limewash.
   micro-chenille). Long section faces the TV for viewing; chaise on the non-fireplace (left/
   foreground) side so the fireplace and its two windows stay open. ~$3,798; product page:
   https://www.crateandbarrel.com/tidal-2-piece-sectional-sofa-with-chaise-lounge/s327203
+
+## Tidal as one connected L-sectional facing the TV
+- `tidal_L_sectional_tv.png` — the Tidal chaise and sofa joined into a single continuous
+  L-shaped sectional: long section faces the TV, connected chaise on the non-fireplace
+  (foreground) side. Coffee table moved in front. (TV and fireplace are on opposite walls, so
+  facing the TV puts the low sofa back toward the window wall.)
