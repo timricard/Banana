@@ -20,3 +20,10 @@ The TV is NOT wall-mounted — it sits on a freestanding console.
 - `highend_TVwall.png` — TV-wall / seating angle
 - `highend_fireplace.png` — fireplace focal angle
 - `highend_ba_1.jpg`, `highend_ba_2.jpg` — before/after strips
+
+## Correction (fireplace location)
+An earlier version of `highend_TVwall.png` mistakenly placed the fireplace on the back/center
+wall. It has been corrected: the **TV console is on the left wall** (the credenza's real spot),
+and the **brick fireplace sits centered between its two windows on the right wall** — matching
+the true room layout. `highend_TVwall_altbrick.png` is the same view with natural red brick
+instead of limewash.
