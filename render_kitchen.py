@@ -5,8 +5,9 @@ API_KEY = os.environ["GEMINI_API_KEY"]
 MODEL = "gemini-3-pro-image"
 URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={API_KEY}"
 
-spec_path = "/root/.claude/uploads/6f946a4c-023d-59db-9553-d3751d955354/899f9fce-kitchen_render_prompt.json"
+spec_path = os.environ.get("SPEC_PATH", "/home/user/Banana/kitchen_render_prompt_v2.json")
 spec = open(spec_path).read()
+TAG = os.environ.get("RENDER_TAG", "v2")
 
 instruction = (
     "Render this specification as a single photorealistic interior photograph. "
@@ -47,7 +48,7 @@ for i, extra in enumerate(variations, 1):
     for part in resp["candidates"][0]["content"]["parts"]:
         inline = part.get("inlineData") or part.get("inline_data")
         if inline:
-            path = f"{outdir}/kitchen_variation_{chr(64+i)}.png"
+            path = f"{outdir}/kitchen_{TAG}_variation_{chr(64+i)}.png"
             open(path, "wb").write(base64.b64decode(inline["data"]))
             print(f"[{i}] saved {path}")
             saved = True

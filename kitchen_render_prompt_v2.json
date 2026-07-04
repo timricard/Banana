@@ -1,0 +1,109 @@
+{
+  "render_intent": "photorealistic interior rendering",
+  "scene": {
+    "room": "kitchen in a 1938 California bungalow, remodeled, now opening to an adjacent open space on the right",
+    "view": "straight-on elevation of the sink wall, eye level, slight wide angle",
+    "camera": {
+      "type": "full-frame, 28mm equivalent",
+      "height_ft": 5.0,
+      "angle": "perpendicular to sink wall, one-point perspective",
+      "depth_of_field": "deep focus, everything sharp"
+    },
+    "lighting": {
+      "primary": "soft natural daylight through the window over the sink, late morning, Northern California",
+      "secondary": "warm under-cabinet LED strip below upper cabinets, 2700K",
+      "mood": "airy, warm, calm"
+    }
+  },
+  "elements": [
+    {
+      "name": "lower_cabinets",
+      "type": "shaker-style base cabinets, full run, drawers over doors",
+      "color": "Sherwin-Williams Dried Thyme SW 6186 (muted gray-sage green)",
+      "finish": "satin enamel",
+      "hardware": "aged unlacquered brass bar pulls on drawers, brass knobs on doors, darker burnished tone, not shiny gold",
+      "detail": "recessed toe kick in a darker sage"
+    },
+    {
+      "name": "upper_cabinets",
+      "type": "shaker-style upper cabinets running left of the window, extending to the ceiling with simple crown",
+      "color": "Sherwin-Williams Alabaster SW 7008 (warm creamy white), matching walls exactly",
+      "finish": "satin enamel",
+      "hardware": "small aged brass knobs"
+    },
+    {
+      "name": "left_tall_cabinets",
+      "type": "floor-to-ceiling shaker-style tall cabinets on the far left, replacing the former left wall, housing a fully integrated panel-ready Thermador refrigerator column with matching cabinet fronts",
+      "color": "Sherwin-Williams Dried Thyme SW 6186 (muted gray-sage green), matching the lower cabinets exactly",
+      "finish": "satin enamel",
+      "hardware": "aged unlacquered brass bar pulls, burnished tone",
+      "detail": "Thermador refrigerator concealed behind green cabinet panels; small discreet Thermador badge; no exposed stainless steel"
+    },
+    {
+      "name": "floating_shelves",
+      "type": "two thick floating white oak shelves, stacked, in the zone to the right of the sink only",
+      "material": "rift-sawn white oak, natural unstained, clear matte finish",
+      "mounting": "hidden brackets, no visible supports",
+      "styling": "stacked cream ceramic bowls, small potted plant with sage-green foliage, glass jar, one sage-green ceramic bowl, small brass object"
+    },
+    {
+      "name": "right_open_space",
+      "type": "the sink wall terminates just past the floating shelves; beyond that the wall is removed and the room opens into a bright adjacent living/dining space",
+      "detail": "open doorway-width transition, no wall on the far right, soft bright out-of-focus open room visible beyond, floor continues through as the same white oak"
+    },
+    {
+      "name": "backsplash",
+      "type": "handmade Moroccan zellige tile, 4x4 inch squares, tight grid, minimal grout",
+      "color": "warm white / weathered white with natural tonal variation from cream to ivory, glossy reflective glaze, slightly irregular handmade surfaces catching the light",
+      "extent": "standard height under upper cabinets; full height from counter to ceiling behind the floating shelves"
+    },
+    {
+      "name": "countertop",
+      "type": "engineered quartz, 3cm eased edge",
+      "product": "Daltile ONE Quartz Telluride",
+      "appearance": "polished off-white base with sparse, soft grey pencil-thin veining, subtle and understated, NOT bold marble veining",
+      "detail": "single seamless run, no visible seams"
+    },
+    {
+      "name": "sink_and_faucet",
+      "type": "white fireclay UNDERMOUNT sink under the window, mounted below the quartz countertop with a continuous quartz surface and no apron front",
+      "faucet": "aged unlacquered brass gooseneck bridge-style faucet, burnished patina"
+    },
+    {
+      "name": "window",
+      "type": "double-hung window centered over the sink, painted Alabaster trim",
+      "view_through": "soft green garden foliage, out of focus"
+    },
+    {
+      "name": "walls_and_trim",
+      "type": "smooth painted walls and simple 1938-appropriate trim",
+      "color": "Sherwin-Williams Alabaster SW 7008, eggshell walls, satin trim"
+    },
+    {
+      "name": "floor",
+      "type": "site-finished white oak plank flooring, 5 inch planks",
+      "finish": "natural unstained, clear waterborne matte finish, no orange or amber tones, matches the floating shelves"
+    }
+  ],
+  "style_references": [
+    "warm California organic-modern kitchen",
+    "1938 bungalow character, not ultra-modern",
+    "editorial interior photography, Architectural Digest quality"
+  ],
+  "negative": [
+    "no exposed stainless steel appliances in frame (Thermador fridge is panel-ready and concealed)",
+    "no farmhouse apron-front sink; the sink is undermount",
+    "no shiny polished gold hardware",
+    "no bold dramatic marble veining on the quartz",
+    "no upper cabinets on the right side of the sink (floating shelves only there)",
+    "no wall on the far right where the shelves terminate (it opens to another room)",
+    "no gray-blue cool color cast",
+    "no orange or honey-toned wood",
+    "no clutter, no people, no text or watermarks"
+  ],
+  "output": {
+    "aspect_ratio": "3:2",
+    "variations_requested": 3,
+    "notes": "hold the exact paint relationships: sage lowers AND the tall left cabinets must read clearly darker and greener than the warm white uppers and walls; shelves and floor must be the same natural oak tone; the left is a floor-to-ceiling green cabinet run with a concealed Thermador fridge; the right side opens into an adjacent bright room with no terminating wall"
+  }
+}
