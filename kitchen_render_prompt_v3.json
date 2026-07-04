@@ -1,0 +1,99 @@
+{
+  "render_intent": "photorealistic interior rendering",
+  "scene": {
+    "room": "kitchen in a 1938 California bungalow, remodeled; galley / L-shaped layout with a built-in breakfast banquette nook at the far end",
+    "view": "wide-angle interior three-quarter view from the near corner, looking down the length of the kitchen toward a bank of windows and a banquette nook; two-point perspective",
+    "camera": {
+      "type": "full-frame, 24mm equivalent wide angle",
+      "height_ft": 5.0,
+      "angle": "shot from the near-left corner looking toward the far window nook, both side walls receding",
+      "depth_of_field": "deep focus, everything sharp"
+    },
+    "lighting": {
+      "primary": "bright soft natural daylight flooding from the bank of windows at the far end and the sink window, late morning, Northern California",
+      "secondary": "warm under-cabinet LED strip, 2700K, and recessed ceiling downlights",
+      "mood": "airy, bright, warm, calm"
+    }
+  },
+  "layout": {
+    "left_wall": "sink run in the foreground-left, receding toward the nook",
+    "far_end": "built-in breakfast banquette nook beneath a bank of windows",
+    "right_wall": "range and tall-pantry run in the foreground-right, receding toward the nook",
+    "floor": "continuous white oak throughout"
+  },
+  "elements": [
+    {
+      "name": "left_sink_run",
+      "type": "L-shaped run of shaker-style base cabinets along the left wall with a white fireclay UNDERMOUNT sink beneath a window",
+      "color": "Sherwin-Williams Dried Thyme SW 6186 (muted gray-sage green) cabinets",
+      "finish": "satin enamel",
+      "faucet": "aged unlacquered brass gooseneck faucet, burnished patina",
+      "hardware": "aged unlacquered brass bar pulls and knobs, burnished, not shiny gold",
+      "appliances": "integrated dishwasher beside the sink",
+      "detail": "quartz counter; two stacked floating white oak shelves above the counter near the window, styled with a small trailing potted plant and a few cream ceramics"
+    },
+    {
+      "name": "breakfast_nook",
+      "type": "built-in upholstered banquette bench wrapping the far corner beneath a bank of three double-hung windows",
+      "upholstery": "cream / oatmeal linen cushions",
+      "furniture": "natural white oak dining table with two modern light-wood chairs, cream seats",
+      "detail": "bright daylight through the windows, painted Alabaster window trim, soft out-of-focus garden greenery beyond"
+    },
+    {
+      "name": "right_range_run",
+      "type": "run along the right wall with a professional range under a wood-wrapped hood, flanked by tall pantry and cabinetry",
+      "range": "professional-style Thermador range, stainless, 6-burner, centered on the wall",
+      "hood": "custom natural white oak wrapped range hood with a slim stainless insert, matching the oak shelves and floor",
+      "tall_cabinets": "floor-to-ceiling Alabaster shaker pantry cabinets toward the nook end of this wall",
+      "uppers": "Alabaster shaker upper cabinets flanking the hood, small aged brass knobs",
+      "secondary_appliances": "stainless wall oven with a microwave above it, built into Alabaster cabinetry on the near-right",
+      "lowers": "Sherwin-Williams Dried Thyme SW 6186 sage green shaker base cabinets with aged brass bar pulls",
+      "counter": "quartz counter matching the sink run"
+    },
+    {
+      "name": "backsplash",
+      "type": "handmade Moroccan zellige tile, 4x4 inch squares, tight grid, minimal grout, on both the sink wall and the range wall",
+      "color": "warm white / weathered white with natural tonal variation from cream to ivory, glossy reflective glaze, slightly irregular handmade surfaces catching the light"
+    },
+    {
+      "name": "countertop",
+      "type": "engineered quartz, 3cm eased edge",
+      "product": "Daltile ONE Quartz Telluride",
+      "appearance": "polished off-white base with sparse, soft grey pencil-thin veining, subtle and understated, NOT bold marble veining"
+    },
+    {
+      "name": "upper_cabinets_color",
+      "type": "all upper and tall cabinets",
+      "color": "Sherwin-Williams Alabaster SW 7008 (warm creamy white), matching the walls exactly",
+      "finish": "satin enamel"
+    },
+    {
+      "name": "walls_and_trim",
+      "type": "smooth painted walls and simple 1938-appropriate trim",
+      "color": "Sherwin-Williams Alabaster SW 7008, eggshell walls, satin trim"
+    },
+    {
+      "name": "floor",
+      "type": "site-finished white oak plank flooring, 5 inch planks, running the length of the room",
+      "finish": "natural unstained, clear waterborne matte finish, no orange or amber tones, matches the floating shelves and range hood"
+    }
+  ],
+  "style_references": [
+    "warm California organic-modern kitchen",
+    "1938 bungalow character, not ultra-modern",
+    "editorial interior photography, Architectural Digest quality"
+  ],
+  "negative": [
+    "no farmhouse apron-front sink; the sink is undermount",
+    "no shiny polished gold hardware",
+    "no bold dramatic marble veining on the quartz",
+    "no gray-blue cool color cast",
+    "no orange, pink, or honey-toned wood; oak is natural and neutral",
+    "no clutter, no people, no text or watermarks"
+  ],
+  "output": {
+    "aspect_ratio": "16:9",
+    "variations_requested": 3,
+    "notes": "hold the exact paint relationships: sage lowers must read clearly darker and greener than the warm-white uppers, tall cabinets and walls; oak shelves, range hood and floor must all be the same natural, neutral (non-amber, non-pink) white oak tone; layout follows the reference: sink+shelves run on the left, banquette window nook at the far end, professional range under an oak hood with tall pantry and wall ovens on the right"
+  }
+}
