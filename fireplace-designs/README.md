@@ -14,6 +14,15 @@ Photo-based renderings of the living-room fireplace, made with Gemini 3 Pro Imag
 | 3 · Santa Barbara + oak beam | Creamy limewash plaster with softened corners, rounded opening, reclaimed oak beam mantel | Honed cream limestone pavers |
 | 4 · Classic plaster + mantel | Smooth Ivory White plaster, raised flat surround, molded mantel shelf, thin black marble slip | Honed Carrara marble |
 
+## Round 2: refinements of option 4
+
+| Option | Surround | Hearth |
+|---|---|---|
+| 5a · Soft plaster + marble hearth | Option 4's raised border around the opening, but the molded mantel shelf is replaced by option 1's soft, hand-troweled lime-plaster form (rounded top corners, no shelf) | Honed Carrara marble |
+| 5b · Soft plaster + plaster hearth | Same as 5a | Seamless sealed lime plaster / tadelakt, flowing into the surround |
+
+`comparison-option5.jpg` shows option 4 beside both variants. `scripts/render_v2.py` generates them.
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
