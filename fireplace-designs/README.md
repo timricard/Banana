@@ -42,6 +42,17 @@ The quote's scope is *"Fireplace inside, stucco 8x8. Lath, scratch, brown and fi
 `6-estimate-stucco/` shows that scope: three-coat stucco over the existing brick, following its current shape (so the raised frame around the opening stays), bullnose corners and a semi-smooth warm white integral-color finish. There's no mantel, and the existing hearth stays, because the quote doesn't cover either.
 `comparison-estimate.jpg` shows today, the estimate scope and option 5a. `scripts/render_estimate.py` generates the renders.
 
+## Round 5: budget alternatives to plaster
+
+`scripts/render_budget.py` generates these, and `comparison-budget.jpg` shows them beside today's fireplace. The close-ups are cut from each wide render.
+
+| Option | Surround | Hearth |
+|---|---|---|
+| 7 · Limewashed brick | Patch and repoint the brick, then a warm white limewash ("German smear") that lets the brick show through | 12x24 charcoal slate-look porcelain |
+| 8 · Painted brick + oak beam | Patch the brick, paint it a solid matte warm white, add a white-oak beam mantel | 24x24 honed charcoal porcelain |
+| 9 · Wood mantel + tile face | Paint-grade Craftsman wood mantel in Ivory White over the brick, sage handmade-look subway tile around the opening | Matching sage 6x6 tile |
+| 10 · Tiled face + oak shelf | Cream handmade-look 2.5x8 tile, stacked vertically, over the whole brick face, floating white-oak shelf | The same cream tile |
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
