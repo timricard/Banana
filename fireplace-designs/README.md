@@ -36,6 +36,12 @@ These use the same soft plaster surround as 5b. Only the hearth changes. `script
 
 `comparison-tile-hearths.jpg` shows them all beside the plaster hearth.
 
+## Round 4: what the G Plastering estimate buys (#1104, $2,100)
+
+The quote's scope is *"Fireplace inside, stucco 8x8. Lath, scratch, brown and finish coats. Semi-smooth finish with color, bullnose corners."*
+`6-estimate-stucco/` shows that scope: three-coat stucco over the existing brick, following its current shape (so the raised frame around the opening stays), bullnose corners and a semi-smooth warm white integral-color finish. There's no mantel, and the existing hearth stays, because the quote doesn't cover either.
+`comparison-estimate.jpg` shows today, the estimate scope and option 5a. `scripts/render_estimate.py` generates the renders.
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
