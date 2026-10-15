@@ -39,6 +39,7 @@ r.DESIGNS.update({
         "blue, ochre and cream. Hearth: terracotta Saltillo 12x12 tiles, flush inside the wood floor border."),
 })
 
+if __import__("os").environ.get("MODEL"): r.MODEL = __import__("os").environ["MODEL"]
 names = sys.argv[1:] or ["15-craftsman-dried-thyme", "16-federal-dried-thyme", "17-shaker-panel-dried-thyme",
                          "18-modern-white-oak", "19-spanish-dark-wood"]
 jobs = [(n, p) for n in names for p in ("front-wide", "side-angle")]

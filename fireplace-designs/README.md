@@ -64,6 +64,18 @@ The quote's scope is *"Fireplace inside, stucco 8x8. Lath, scratch, brown and fi
 | 13 · Board & batten + slate band | Ivory White board-and-batten over the brick, charcoal slate band around the opening, slim cap shelf | Charcoal slate, 12x24 |
 | 14 · Marble-look porcelain slab | Large Calacatta-look porcelain panels with mitered edges and book-matched veining | Matching slab |
 
+## Round 7: wood mantel surrounds
+
+`scripts/render_wood.py` generates these, and `comparison-wood.jpg` shows them beside today's fireplace. Every design keeps a noncombustible tile or stone band around the opening. Dried Thyme is Sherwin-Williams SW 6186.
+
+| Option | Mantel | Around the opening | Hearth |
+|---|---|---|---|
+| 15 · Craftsman | Tapered pilasters, square corbels, thick shelf, Dried Thyme | Cream handmade 4x4 tile | Cream handmade 4x4 tile |
+| 16 · Federal | Fluted pilasters, dentil molding, crown shelf, Dried Thyme | Honed black soapstone | Soapstone slab |
+| 17 · Shaker panel | Recessed flat panels, simple shelf, Dried Thyme | White subway tile, stacked vertically | Terracotta Saltillo |
+| 18 · Modern white oak | Flat legs and header, thick floating shelf, natural oak | Charcoal slate | Charcoal slate slab |
+| 19 · Spanish dark wood | Chunky posts, beam with carved corbels, walnut stain | Talavera tile | Terracotta Saltillo |
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
