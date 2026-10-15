@@ -53,6 +53,17 @@ The quote's scope is *"Fireplace inside, stucco 8x8. Lath, scratch, brown and fi
 | 9 · Wood mantel + tile face | Paint-grade Craftsman wood mantel in Ivory White over the brick, sage handmade-look subway tile around the opening | Matching sage 6x6 tile |
 | 10 · Tiled face + oak shelf | Cream handmade-look 2.5x8 tile, stacked vertically, over the whole brick face, floating white-oak shelf | The same cream tile |
 
+## Round 6: more budget alternatives
+
+`scripts/render_budget2.py` generates these, and `comparison-budget-2.jpg` shows them beside today's fireplace.
+
+| Option | Surround | Hearth |
+|---|---|---|
+| 11 · Restored red brick + beam | Patch, repoint and seal the natural red brick, strip the paint off the frame, add a reclaimed dark wood beam | 12x12 charcoal slate |
+| 12 · Charcoal painted brick | Brick painted a deep matte charcoal (like BM Iron Mountain), floating white-oak shelf | Cream limestone-look porcelain, 12x24 |
+| 13 · Board & batten + slate band | Ivory White board-and-batten over the brick, charcoal slate band around the opening, slim cap shelf | Charcoal slate, 12x24 |
+| 14 · Marble-look porcelain slab | Large Calacatta-look porcelain panels with mitered edges and book-matched veining | Matching slab |
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
