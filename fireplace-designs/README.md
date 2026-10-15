@@ -23,6 +23,19 @@ Photo-based renderings of the living-room fireplace, made with Gemini 3 Pro Imag
 
 `comparison-option5.jpg` shows option 4 beside both variants. `scripts/render_v2.py` generates them.
 
+## Round 3: tile hearths on option 5
+
+These use the same soft plaster surround as 5b. Only the hearth changes. `scripts/render_v3.py` generates them.
+
+| Option | Hearth |
+|---|---|
+| 5c | Handmade cream zellige, about 4" squares |
+| 5d | Patterned Spanish cement tile, 8", cream / charcoal / terracotta |
+| 5e | Terracotta Saltillo, 12" squares |
+| 5f | Matte charcoal hexagon, about 6" |
+
+`comparison-tile-hearths.jpg` shows them all beside the plaster hearth.
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
