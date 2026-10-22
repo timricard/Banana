@@ -76,6 +76,22 @@ The quote's scope is *"Fireplace inside, stucco 8x8. Lath, scratch, brown and fi
 | 18 · Modern white oak | Flat legs and header, thick floating shelf, natural oak | Charcoal slate | Charcoal slate slab |
 | 19 · Spanish dark wood | Chunky posts, beam with carved corbels, walnut stain | Talavera tile | Terracotta Saltillo |
 
+## Round 8: simpler versions of option 15 (for a general contractor)
+
+`scripts/render_simple.py` generates these, and `comparison-simple.jpg` compares them with 15.
+- **15a · Simplified:** flat columns with plinth blocks, a plain board across the top, no corbels, a shelf with one small cove molding. The columns kept a slight taper.
+- **15b · Simplest:** two flat side boards and a flat top board, flush, with a thick plain shelf.
+
+## Round 9: simple wood surround + green tile
+
+All three use the 15b-style board surround with a band of tile about 7" wide around the opening. `scripts/render_green.py` generates them, and `comparison-green-tile.jpg` shows them beside today's fireplace.
+
+| Option | Wood | Tile around the opening and hearth |
+|---|---|---|
+| 20 | Natural white oak | Sage-green zellige, 4x4 |
+| 21 | Painted BM Ivory White | Deep forest green, 3x6 stacked vertically (6x6 on the hearth) |
+| 22 | Walnut-stained oak | Olive / celadon 2.5x8, staggered |
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
