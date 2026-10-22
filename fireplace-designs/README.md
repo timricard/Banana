@@ -92,6 +92,11 @@ All three use the 15b-style board surround with a band of tile about 7" wide aro
 | 21 | Painted BM Ivory White | Deep forest green, 3x6 stacked vertically (6x6 on the hearth) |
 | 22 | Walnut-stained oak | Olive / celadon 2.5x8, staggered |
 
+## Round 10: option 23
+
+**23 · Simplified Craftsman in Ivory White + forest green tile:** 15a's woodwork (flat pilasters with plinth blocks, a flat frieze board, a shelf with a small cove molding) painted BM Ivory White, with 21's forest-green 3x6 tile stacked vertically around the opening and a 6x6 hearth.
+`scripts/render_23.py` generates it, and `comparison-option23.jpg` compares it with 15a and 21.
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
