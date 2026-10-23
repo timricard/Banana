@@ -16,11 +16,6 @@ s.SPECS = {
         "white-oak cladding now covers the ENTIRE front of the fireplace and runs right up to the edges of the firebox "
         "opening on the top and both sides, with a clean square edge at the opening; the separate inner frame step "
         "disappears so the whole face is one continuous fluted oak surface. " + HEARTH),
-    "29b-fluted-oak-steel-band": (
-        "Remove the cream zellige tile band around the firebox opening: the vertical fluted / reeded natural white-oak "
-        "cladding now covers the front of the fireplace as one continuous fluted surface, stopping at a slim flat matte "
-        "black steel frame, about 6 inches wide on the top and both sides, that directly surrounds the firebox opening "
-        "(a clean modern metal border, flush with the oak, crisp edges). " + HEARTH),
 }
 
 if __name__ == "__main__":

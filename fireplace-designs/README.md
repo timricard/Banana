@@ -133,6 +133,12 @@ The woodwork is the same as 21 in every option. Only the tile changes. `scripts/
 | 37 | Glossy forest-green fluted 3x12 | Forest green 6x6 |
 | 38 | Burnt-orange zellige 2x6, stacked vertically | Same zellige, laid horizontally |
 
+## Round 14: fluted oak without tile
+
+`comparison-29-variants.jpg` compares 29, 29a and 29b.
+- **29a:** fluted white oak covers the whole front right up to the firebox opening, with a hearth painted matte charcoal. For looks only: wood this close to the opening does not meet fireplace clearance codes. `scripts/render_29ab.py` generates it.
+- **29b:** fluted white oak over the outer brick. The existing raised masonry band around the opening (about 6", noncombustible) is kept and painted matte charcoal, and the hearth is painted charcoal to match. `scripts/render_29b.py` generates it.
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
