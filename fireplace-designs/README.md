@@ -97,6 +97,18 @@ All three use the 15b-style board surround with a band of tile about 7" wide aro
 **23 · Simplified Craftsman in Ivory White + forest green tile:** 15a's woodwork (flat pilasters with plinth blocks, a flat frieze board, a shelf with a small cove molding) painted BM Ivory White, with 21's forest-green 3x6 tile stacked vertically around the opening and a 6x6 hearth.
 `scripts/render_23.py` generates it, and `comparison-option23.jpg` compares it with 15a and 21.
 
+## Round 11: tile options on the simple Ivory White board surround (21)
+
+The woodwork is the same as 21 in every option. Only the tile changes. `scripts/render_tiles21.py` generates them, and `comparison-tile-options.jpg` shows all six.
+
+| Option | Tile around the opening | Hearth |
+|---|---|---|
+| 24 | Glossy burnt orange 3x6, stacked vertically | Burnt orange 6x6 |
+| 25 | Glossy pale sage zellige 4x4 | Same |
+| 26 | Matte olive 2x8, stacked vertically | Matte olive 2x8, laid horizontally |
+| 27 | Glossy deep teal 3x6, stacked vertically | Deep teal 6x6 |
+| 28 | Forest green 3x6 (as in 21) | Terracotta Saltillo 12x12 |
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
