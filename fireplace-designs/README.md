@@ -109,6 +109,18 @@ The woodwork is the same as 21 in every option. Only the tile changes. `scripts/
 | 27 | Glossy deep teal 3x6, stacked vertically | Deep teal 6x6 |
 | 28 | Forest green 3x6 (as in 21) | Terracotta Saltillo 12x12 |
 
+## Round 12: modern zellige and fluted designs
+
+`scripts/render_modern.py` generates these, and `comparison-modern.jpg` shows them beside today's fireplace.
+
+| Option | Surround | Tile / hearth |
+|---|---|---|
+| 29 | Fluted (reeded) white-oak legs and header, slim oak shelf | Cream zellige 2x6, stacked vertically; cream zellige hearth |
+| 30 | Warm-white fluted ceramic tile over the whole face, black metal trim at the opening, chunky oak shelf | Charcoal concrete-look slab hearth |
+| 31 | Emerald zellige herringbone over the whole face, walnut floating shelf | Green zellige hearth |
+| 32 | Fluted surround painted SW Dried Thyme | Burnt-orange zellige 2x6, stacked vertically, around the opening and on the hearth |
+| 33 | Charcoal zellige over the whole face, stacked vertically, fluted white-oak shelf | Warm-white limestone-look slab hearth |
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
