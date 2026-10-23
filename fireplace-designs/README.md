@@ -121,6 +121,18 @@ The woodwork is the same as 21 in every option. Only the tile changes. `scripts/
 | 32 | Fluted surround painted SW Dried Thyme | Burnt-orange zellige 2x6, stacked vertically, around the opening and on the hearth |
 | 33 | Charcoal zellige over the whole face, stacked vertically, fluted white-oak shelf | Warm-white limestone-look slab hearth |
 
+## Round 13: fluted tiles on the simple Ivory White surround (21)
+
+`scripts/render_tiles21b.py` generates these, and `comparison-fluted-tiles.jpg` shows them beside 21.
+
+| Option | Tile around the opening | Hearth |
+|---|---|---|
+| 34 | Glossy warm-white fluted 3x12 | Charcoal concrete-look slab |
+| 35 | Glossy sage fluted 3x12 | Sage 6x6 |
+| 36 | Glossy burnt-orange fluted 3x12 | Terracotta Saltillo 12x12 |
+| 37 | Glossy forest-green fluted 3x12 | Forest green 6x6 |
+| 38 | Burnt-orange zellige 2x6, stacked vertically | Same zellige, laid horizontally |
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.

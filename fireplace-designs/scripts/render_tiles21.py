@@ -30,7 +30,8 @@ s.SPECS = {
         "variation, sealed satin finish and gray grout lines, flush inside the wood floor border."),
 }
 
-jobs = [(v, w) for v in (sys.argv[1:] or s.SPECS) for w in s.VIEWS]
-with cf.ThreadPoolExecutor(3) as ex:
-    for out, status in ex.map(lambda j: s.render(*j), jobs):
-        print(status, out, flush=True)
+if __name__ == "__main__":
+    jobs = [(v, w) for v in (sys.argv[1:] or s.SPECS) for w in s.VIEWS]
+    with cf.ThreadPoolExecutor(3) as ex:
+        for out, status in ex.map(lambda j: s.render(*j), jobs):
+            print(status, out, flush=True)
