@@ -1,0 +1,208 @@
+{
+  "interior_image": {
+    "meta": {
+      "spec_version": "1.0.0",
+      "title": "TV Room Redesign Concept",
+      "mode": "image_to_image_edit",
+      "reference_image": "tv3-reference.jpg",
+      "usage_context": "design_concept",
+      "output": {
+        "aspect_ratio": "4:3",
+        "orientation": "landscape",
+        "resolution": "4K"
+      }
+    },
+    "scene": {
+      "id": "scene",
+      "description": "A 1938 bungalow family room, 14 ft 5 in x 12 ft, viewed from the wide cased opening, looking toward a wall of gridless French doors with two sidelights, backyard patio visible through the glass.",
+      "time_of_day": "daytime",
+      "style": "editorial interior photography, photorealistic, warm and realistic",
+      "foreground_frame": "the painted cased opening, hallway wood floor and stone tile threshold, and the white built-in cabinet at the right edge stay exactly as in the reference"
+    },
+    "camera": {
+      "id": "camera",
+      "match_reference": true,
+      "position": "standing in the hallway just outside the wide cased opening, identical to the reference photo",
+      "height": "eye_level",
+      "tilt": "slight_downward",
+      "focal_length": "match reference (approx. 26mm full-frame equivalent smartphone wide)",
+      "framing": "wide",
+      "crop": "nothing cropped out; same field of view as the reference"
+    },
+    "lighting": {
+      "id": "lighting",
+      "key_light": {
+        "source": "French doors and sidelights",
+        "type": "soft natural daylight",
+        "direction": "back",
+        "intensity": "medium"
+      },
+      "practical_lights": [
+        {
+          "ref": "ceiling_light",
+          "color_temperature_k": 3000,
+          "intensity": "very_low",
+          "note": "dimmed low, warm glow"
+        },
+        {
+          "ref": "floor_lamp",
+          "color_temperature_k": 3000,
+          "intensity": "low"
+        }
+      ],
+      "color_temperature": "warm neutral",
+      "exposure": "balanced, natural dynamic range, no HDR glow, no blown-out windows"
+    },
+    "materials": {
+      "id": "materials",
+      "palette": {
+        "rust_velvet": "#A8502A",
+        "white_oak": "#D9BE97",
+        "walnut": "#5C3A21",
+        "accessible_beige_walls": "#D1C7B7",
+        "ivory_white_trim": "#F2EDE1",
+        "aged_brass": "#9A7B4F",
+        "rug_light_blue": "#B9C7D3",
+        "wallpaper_olive": "#6E7A4F",
+        "wallpaper_ochre": "#C09A3E",
+        "wallpaper_clay": "#B8674B",
+        "wallpaper_cream_ground": "#EFE6D2"
+      },
+      "floor": {
+        "material": "natural white oak hardwood",
+        "color": "#D9BE97",
+        "finish": "matte",
+        "plank_direction": "running from the camera toward the French doors"
+      },
+      "tv_wall": {
+        "location": "left wall behind the TV and media console only",
+        "material": "matte wallpaper",
+        "pattern": "small-scale vintage block print",
+        "colors": ["#6E7A4F", "#C09A3E", "#B8674B"],
+        "ground": "#EFE6D2",
+        "repeat_in": 6
+      },
+      "walls": {
+        "location": "all other walls inside the room",
+        "paint": "Sherwin Williams Accessible Beige",
+        "color": "#D1C7B7",
+        "finish": "eggshell"
+      },
+      "trim": {
+        "applies_to": ["crown molding", "baseboards", "door and window casings", "French door frames"],
+        "paint": "Benjamin Moore Ivory White",
+        "color": "#F2EDE1"
+      }
+    },
+    "furniture": [
+      {
+        "id": "media_console",
+        "status": "keep",
+        "description": "walnut mid-century media console with the wall-mounted TV above it on the left wall",
+        "position": "left wall, unchanged"
+      },
+      {
+        "id": "lounge_chair",
+        "status": "keep",
+        "description": "walnut-arm lounge chair with grey cushions",
+        "position": "left corner nearest the camera, angled toward the room, unchanged"
+      },
+      {
+        "id": "sling_chair",
+        "status": "keep",
+        "description": "wood sling chair",
+        "position": "near the French doors at the end of the media console, unchanged"
+      },
+      {
+        "id": "chest_coffee_table",
+        "status": "keep",
+        "description": "dark wood chest used as a coffee table",
+        "position": "center of the room, unchanged"
+      },
+      {
+        "id": "monstera",
+        "status": "keep",
+        "description": "large monstera plant in a pot",
+        "position": "unchanged"
+      },
+      {
+        "id": "sofa",
+        "status": "new",
+        "description": "low-profile sofa in rust performance velvet, matte velvet with subtle nap, slim tapered arms, two seat cushions, three loose back cushions, exposed tapered walnut legs",
+        "dimensions_in": { "width": 108, "depth": 46 },
+        "color": "#A8502A",
+        "position": "right wall, under the high window, facing the TV wall",
+        "pillows": [
+          { "material": "linen", "color": "#EFE6D2" },
+          { "material": "linen", "color": "#6E7A4F" }
+        ]
+      },
+      {
+        "id": "rug",
+        "status": "new",
+        "description": "8x10 ft hand-knotted wool Oushak-style rug, low pile, slightly plush",
+        "dimensions_ft": { "width": 8, "length": 10 },
+        "ground_color": "#B9C7D3",
+        "motifs": "floral and geometric, slate blue, faded gold, soft grey",
+        "fringe": "short fringe on the two short ends only",
+        "position": "10 ft side running parallel to the sofa wall; sofa front legs, lounge chair and sling chair all resting on it; chest centered on it"
+      },
+      {
+        "id": "ceiling_light",
+        "status": "new",
+        "description": "20 in diameter white drum flush mount, 5 in tall, frosted diffuser, burnished gold interior visible at the lower edge",
+        "position": "same ceiling location as the existing dome fixture"
+      },
+      {
+        "id": "floor_lamp",
+        "status": "new",
+        "description": "slim aged brass floor lamp with a linen drum shade",
+        "color": "#9A7B4F",
+        "position": "directly behind the sling chair"
+      }
+    ],
+    "changes": [
+      { "id": "c1_floor", "target": "floor", "action": "replace the beige carpet with natural white oak hardwood, matte, planks running toward the French doors" },
+      { "id": "c2_wallpaper", "target": "tv_wall", "action": "replace the teal and green botanical wallpaper with the small-scale olive, ochre and clay block print on warm cream, 6 in repeat, matte" },
+      { "id": "c3_paint", "target": "walls", "action": "paint all other walls Accessible Beige #D1C7B7 and all trim Ivory White #F2EDE1" },
+      { "id": "c4_doors", "target": "french_doors", "action": "replace the gridded French doors and both sidelights with gridless full-glass French doors and sidelights in the same openings, white frames" },
+      { "id": "c5_sofa", "target": "sofa", "action": "replace the grey sofa with the 108 in rust velvet sofa under the high window on the right wall; remove the end tables" },
+      { "id": "c6_rug", "target": "rug", "action": "add the 8x10 light blue Oushak-style rug" },
+      { "id": "c7_ceiling_light", "target": "ceiling_light", "action": "replace the small dome fixture with the 20 in white drum flush mount, dimmed warm 3000K" },
+      { "id": "c8_floor_lamp", "target": "floor_lamp", "action": "add one slim brass floor lamp with a linen shade behind the sling chair" }
+    ],
+    "keep": [
+      "room shape, wall positions, crown molding, ceiling and ceiling height",
+      "French door wall position and proportions, including the two sidelights and the door openings",
+      "camera position, focal length and angle exactly as in the reference",
+      "the cased opening, hallway floor and the white built-in at the right edge of the frame",
+      "walnut mid-century media console and wall-mounted TV on the left wall",
+      "walnut-arm lounge chair with grey cushions in the left corner, angled toward the room",
+      "wood sling chair near the French doors",
+      "wood chest coffee table in the center",
+      "the large monstera plant",
+      "backyard patio, brick, lawn and fence visible through the glass"
+    ],
+    "negative": [
+      "carpet",
+      "window grids or muntins",
+      "teal wallpaper",
+      "end tables or side tables",
+      "additional furniture",
+      "people",
+      "text",
+      "watermark",
+      "extra windows or doors",
+      "distorted proportions",
+      "over-saturated colors",
+      "CGI render look",
+      "HDR glow"
+    ],
+    "controls": {
+      "lock_room_geometry": true,
+      "lock_camera": true,
+      "lock_keep_items": true,
+      "allow_changes_only_in": ["c1_floor", "c2_wallpaper", "c3_paint", "c4_doors", "c5_sofa", "c6_rug", "c7_ceiling_light", "c8_floor_lamp"]
+    }
+  }
+}
