@@ -157,6 +157,10 @@ The woodwork is the same as 21 in every option. Only the tile changes. `scripts/
 
 **29g:** option 29's layout with the fluting replaced by flat solid-walnut slats, 1.5" wide with 0.5" gaps over a matte black backer, plus a walnut shelf. The cream zellige stays. `scripts/render_29g.py` generates it, and `comparison-29-wood-species.jpg` compares oak, fir and walnut.
 
+## Round 19: slats matched to the floor inlay
+
+**29h:** 29g's walnut slats, shelf and trim restained to match the dark reddish-brown inlay stripe in the floor border around the hearth. `scripts/render_29h.py` generates it, and `comparison-29g-vs-29h.jpg` compares 29g and 29h.
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
