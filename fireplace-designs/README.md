@@ -149,6 +149,10 @@ The woodwork is the same as 21 in every option. Only the tile changes. `scripts/
 - **29d:** fluted oak, glossy cream 4x4 square tile in a straight grid, solid warm-white quartz hearth slab.
 - **29e:** fluted oak, matte olive 4x4 square tile in a straight grid, solid warm-white quartz hearth slab.
 
+## Round 17: 29 in Douglas fir
+
+**29f:** option 29 with the fluted surround and shelf in vertical-grain Douglas fir (clear matte oil) instead of white oak. The cream zellige stays. `scripts/render_29f.py` generates it, and `comparison-29-oak-vs-fir.jpg` puts it beside 29.
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
