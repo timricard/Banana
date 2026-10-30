@@ -153,6 +153,10 @@ The woodwork is the same as 21 in every option. Only the tile changes. `scripts/
 
 **29f:** option 29 with the fluted surround and shelf in vertical-grain Douglas fir (clear matte oil) instead of white oak. The cream zellige stays. `scripts/render_29f.py` generates it, and `comparison-29-oak-vs-fir.jpg` puts it beside 29.
 
+## Round 18: walnut slats
+
+**29g:** option 29's layout with the fluting replaced by flat solid-walnut slats, 1.5" wide with 0.5" gaps over a matte black backer, plus a walnut shelf. The cream zellige stays. `scripts/render_29g.py` generates it, and `comparison-29-wood-species.jpg` compares oak, fir and walnut.
+
 `comparison.jpg` puts every option beside the originals. Each option folder has `front-closeup`, `front-wide` and `side-angle` views.
 The close-ups are cut from each option's front-wide render, so they match the original close-up framing exactly.
 `scripts/` holds the generation (`render.py`) and close-up framing (`align.py`) scripts. To run them, set `GEMINI_API_KEY`.
