@@ -1,14 +1,14 @@
 {
   "view": "B",
   "base_image": "Living 1.HEIC",
-  "camera_position": "standing near the fireplace, looking down the long axis of the room toward the end window",
+  "camera_position": "standing at the south end near the credenza, looking north down the long axis of the room toward the double window",
   "must_show": [
-    "white oak floating shelves on both sides of the end window, three per side, sparsely styled, replacing the white bookcases",
-    "the end window bare, no curtains",
-    "walnut arm chair and gray knit pouf in front of the window area, angled toward the fireplace",
-    "sofa 1 on the right side of frame and sofa 2 across the end of the room, both floated off the wall",
-    "three large, generously spaced art pieces on the right wall with a long panoramic line drawing in the center; no small frames",
+    "white oak floating shelves on both sides of the north double window, three per side, sparsely styled, replacing the white bookcases",
+    "the double window bare, no curtains",
+    "walnut arm chair and gray knit pouf in the northwest corner under the shelves with the floor lamp beside them, a low walnut console behind sofa 2, and a medium plant in the northeast corner",
+    "sofa 1 on the right side of frame facing left toward the fireplace, sofa 2 across the north end of the group facing the camera, both floated off the walls",
+    "three large, generously spaced art pieces on the east wall (right side of frame) with a long panoramic line drawing in the center; no small frames",
     "the ivory rug under the whole seating group",
-    "slim floor lamp behind sofa 1, glowing warm"
+    "warm lamp light from the reading corner and the console"
   ]
 }

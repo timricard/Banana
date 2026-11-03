@@ -1,32 +1,42 @@
 {
   "task": "image_edit",
+  "room_orientation": {
+    "shape": "rectangle, approx 14 ft east-west by 21 ft north-south, 8 ft ceiling",
+    "west_wall": "long wall with the fireplace centered on it; one single window to the left (south) of the fireplace and one connected pair of double-hung windows (a double window) to the right (north) of it",
+    "north_wall": "short end wall with a pair of connected double-hung windows centered; floating shelves go on either side of them",
+    "east_wall": "long solid wall for art, with a single doorway at its south end",
+    "south_wall": "short end wall; the small arched walkway to the foyer is on the west side of it and the walnut credenza and bar is on the east side of it"
+  },
   "preserve_from_reference": [
     "room dimensions and proportions (approx 21 ft x 14 ft, 8 ft ceiling)",
-    "window and door locations, white painted trim, arched doorways",
+    "the window and door locations exactly as described in room_orientation; do not add, remove, or move any window or opening",
+    "white painted trim, arched walkway to the foyer",
     "light oak hardwood floor with the dark wood inlay border around the hearth",
     "recessed ceiling lights",
-    "existing two greige sofas and matching loveseat (all the same fabric); no sectional, no new seating",
+    "existing two greige sofas (same fabric); the matching loveseat is NOT in this room; no sectional, no new seating",
     "existing walnut mid-century coffee table with lower shelf",
     "existing walnut mid-century credenza used as a bar with record player",
     "existing walnut mid-century arm chair with gray cushion",
     "existing gray knit pouf",
     "existing walnut clip-on arm tray tables on the sofa"
   ],
+  "hard_rule": "west wall has the fireplace with one single window south of it and one double window north of it; north wall has one double window; east wall is solid with one doorway at the south end; south wall has the foyer arch on the west side and the credenza on the east side; nothing else",
   "replace": {
-    "fireplace": "the new design from the fireplace reference photos: vertical white oak slat surround with a thick white oak floating mantel shelf, handmade ivory ceramic tile around the firebox, warm white quartz slab hearth with soft gray veining",
-    "bookcases": "remove both white bookcases with patterned wallpaper backs; replace with two short runs of solid white oak floating shelves, three shelves per side, flanking the end window, sparsely styled with stacked books, two ceramics, and one trailing plant",
+    "fireplace": "the new design from the fireplace reference photos: vertical white oak slat surround from the floor up to a thick white oak mantel shelf; the slats STOP at the underside of the mantel shelf and the mantel shelf is the top of the entire fireplace; the wall above the mantel is plain painted wall (Accessible Beige) with no slats, no paneling, and no wood of any kind, only the single framed print; handmade ivory ceramic tile around the firebox; warm white quartz slab hearth with soft gray veining; the mantel is roughly 5 ft tall and about 6 ft wide",
+    "bookcases": "remove both white bookcases with patterned wallpaper backs on the north wall; replace with two short runs of solid white oak floating shelves, three shelves per side, flanking the north double window, sparsely styled with stacked books, two ceramics, and one trailing plant",
     "rug": "remove the small multicolor rug; add a 9 x 12 ivory and oatmeal wool rug, low pile, subtle woven texture, no fringe, no pattern, running the long way from just in front of the hearth border to under the back legs of sofa 1",
-    "art": "reduce wall art to a few large pieces: one large horizontal muted landscape print in a thin oak frame centered above the mantel; three generously spaced pieces on the opposite long wall with a long panoramic line drawing in the center; one vintage cocktail chart centered above the credenza",
+    "art": "reduce wall art to a few large pieces: one large horizontal muted landscape print in a thin oak frame centered above the mantel on the west wall; three generously spaced pieces on the east wall with a long panoramic line drawing in the center; one vintage cocktail chart centered above the credenza on the south wall",
     "lighting": "recessed lights dimmed to a warm low glow; add a brass table lamp on the credenza and a slim brass or black floor lamp behind the sofa; warm 2700K light throughout",
     "textiles": "replace small mismatched pillows with four 22 inch pillows in ivory linen and rust velvet plus one olive green, and an oatmeal wool throw draped on sofa 1",
-    "windows": "add natural woven wood roller shades, inside mount, on the two windows flanking the fireplace; end window stays bare",
-    "plants": "one tall olive tree in a matte terracotta pot near the arched doorway; remove the scattered small floor plants in plastic pots"
+    "windows": "add natural woven wood roller shades, inside mount, on the west-wall windows (the single window south of the fireplace and the double window north of it, one shade per sash); the north double window stays bare",
+    "plants": "one tall olive tree in a matte terracotta pot against the south wall between the foyer arch and the credenza; remove the scattered small floor plants in plastic pots"
   },
   "layout": {
-    "sofa_1": "pulled off the wall and centered on the fireplace, parallel to the hearth, about 3 ft of walking space behind it",
-    "sofa_2": "perpendicular to sofa 1 at the end-window side, forming an open L with it, also floated off the wall",
-    "loveseat": "at the credenza end of the room, turned to face into the seating group",
-    "arm_chair_and_pouf": "walnut arm chair near the end window beside sofa 2, pouf in front of it",
+    "sofa_1": "floated in the middle of the room facing west toward the fireplace, its back toward the east wall with about 3 ft of walking space behind it",
+    "sofa_2": "at the north end of the seating group facing south, perpendicular to sofa 1 and forming an open L with it, floated a few feet off the north wall",
+    "south_end": "left open; no furniture between the coffee table and the south wall so the path from the foyer arch to the fireplace and the east doorway is clear",
+    "arm_chair_and_pouf": "walnut arm chair in the northwest corner under the shelves beside the west double window, angled toward the fireplace, pouf beside it, slim floor lamp next to the chair",
+    "north_strip": "a low walnut console (about 12 to 14 inches deep, nearly the length of sofa 2) directly behind sofa 2 with a small lamp and one plant on it; a 3 ft walkway between the console and the north wall; a medium plant in the northeast corner; this strip reads as a small reading and library vignette, not leftover space",
     "coffee_table": "centered between sofa 1 and hearth with 16 to 18 inches of clearance"
   },
   "palette": {
@@ -38,5 +48,5 @@
   "style": "warm minimal, California mid-century, edited and uncluttered, expensive but not showroom-stiff, lived in",
   "camera": "eye level, 24mm full-frame equivalent, natural late-afternoon light from the windows plus warm lamp light, slight haze, realistic shadows",
   "output": "photorealistic interior photograph, 16:9, high detail",
-  "negative": "no extra furniture, no new wood tones, no gray or beige rug, no curtains, no fringe on the rug, no gallery wall clutter, no brick, no white mantel, no text or watermarks, no people"
+  "negative": "no slats or wood above the mantel shelf, no full-height slat wall, no extra furniture, no new wood tones, no gray or beige rug, no curtains, no fringe on the rug, no gallery wall clutter, no brick, no white mantel, no text or watermarks, no people"
 }

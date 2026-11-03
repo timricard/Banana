@@ -1,12 +1,12 @@
 {
   "view": "C",
   "base_image": "Living 4.HEIC",
-  "camera_position": "standing at the end-window side of the room, looking toward the credenza wall and the arched opening to the kitchen",
+  "camera_position": "standing at the north end of the room near the shelves, looking south toward the credenza wall and the small arched walkway to the foyer",
   "must_show": [
-    "walnut credenza styled as a bar with a brass table lamp, a small tray of bottles, and the vintage cocktail chart centered above it",
-    "the loveseat turned to face into the seating group, with ivory and rust pillows",
-    "a tall olive tree in a matte terracotta pot beside the arched doorway",
-    "the edge of the new oak slat fireplace on the right side of the frame",
+    "walnut credenza on the east side of the south wall, styled as a bar with a brass table lamp, a small tray of bottles, and the vintage cocktail chart centered above it; the foyer arch on the west side of the south wall",
+    "open floor between the camera and the south wall; no loveseat, no seating at the south end",
+    "a tall olive tree in a matte terracotta pot on the south wall between the foyer arch (left of frame) and the credenza (right of frame)",
+    "the edge of the new oak slat fireplace on the right side of the frame (west wall), and the east doorway on the left side",
     "the ivory rug and walnut coffee table in the foreground",
     "warm lamp light, recessed lights dimmed low"
   ]

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render one view of the fireplace-room mockup with Nano Banana Pro (Gemini image edit).
 
-Usage: python3 scripts/render.py a|b|c [--strict] [--model MODEL] [--out FILE]
+Usage: python3 scripts/render.py a|b|c [--strict] [--model MODEL] [--out FILE] [--note TEXT]
 Reads prompts/global.json + prompts/view-X.json, attaches the view's base photo
 plus any refs/fireplace-*.jpg, writes view-*.png in the repo root.
 """
@@ -28,7 +28,7 @@ def main():
 
     lead = ("Image 1 is a real photo of our living room. Produce a photorealistic 'after' photo of THIS SAME ROOM "
             "from the same camera position: same walls, windows, doors, arches, trim, ceiling, floor and inlay, "
-            "and the same existing furniture pieces (re-arranged only as the layout says). Apply only the changes "
+            "and the same existing furniture pieces (re-arranged only as the layout says; remove any furniture the spec says is not in the room). Follow room_orientation and hard_rule exactly: do not add, remove or move any window, door or arch. Apply only the changes "
             "in the JSON spec below. Do not invent a different room.")
     if fireplace_refs:
         lead += (f" Images 2-{1 + len(fireplace_refs)} show the new fireplace as built in this room; "
@@ -37,6 +37,8 @@ def main():
         lead += " Build the new fireplace from the written fireplace spec; no brick may remain."
     if "--strict" in args:
         lead = STRICT + " " + lead
+    if "--note" in args:
+        lead += " " + args[args.index("--note") + 1]
     text = lead + "\n\n" + json.dumps(spec, indent=2)
 
     parts = [{"text": text}]

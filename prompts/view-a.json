@@ -1,14 +1,14 @@
 {
   "view": "A",
   "base_image": "Living 3.HEIC",
-  "camera_position": "standing at the credenza end of the room, looking across the seating group toward the fireplace wall",
+  "camera_position": "standing against the east wall near its center, looking west across the seating group at the fireplace; one single window visible left of the fireplace and one double window to the right",
   "must_show": [
-    "the new oak slat fireplace replacing the brick one, with one large muted landscape print above the mantel and one ceramic object on the mantel shelf",
+    "the new oak slat fireplace replacing the brick one, slats ending at the mantel shelf, plain painted wall above it with one large muted landscape print, and one ceramic object on the mantel shelf",
     "sofa 1 floated in front of the camera, back facing camera, parallel to the hearth, with sofa 2 perpendicular to it on the left",
     "walnut coffee table between sofa and hearth, with one book stack and a small tray",
     "the ivory wool rug filling the space from hearth border to under both sofas",
     "woven wood shades on both windows flanking the fireplace",
-    "the walnut arm chair and pouf to the left, angled toward the fire",
-    "oak floating shelves just visible on the far left wall"
+    "sofa 2 across the right side of the frame facing south; the left side of the frame is open floor and rug with a clear path to the foyer arch",
+    "woven wood shades on the single window and the double window flanking the fireplace"
   ]
 }
