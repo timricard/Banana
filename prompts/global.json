@@ -20,16 +20,16 @@
     "existing gray knit pouf",
     "existing walnut clip-on arm tray tables on the sofa"
   ],
-  "hard_rule": "west wall has the fireplace with one single window south of it and one double window north of it; north wall has one double window; east wall is solid with one doorway at the south end; south wall has the foyer arch on the west side and the credenza on the east side; nothing else",
+  "hard_rule": "west wall has the fireplace with one single window south of it and one double window north of it; north wall has one double window; east wall is solid with one doorway at the south end; south wall has the foyer arch on the west side and the credenza on the east side; nothing else; the west wall is one flat plane with no bump-out around the fireplace",
   "replace": {
-    "fireplace": "the new design from the fireplace reference photos: vertical white oak slat surround from the floor up to a thick white oak mantel shelf; the slats STOP at the underside of the mantel shelf and the mantel shelf is the top of the entire fireplace; the wall above the mantel is plain painted wall (Accessible Beige) with no slats, no paneling, and no wood of any kind, only the single framed print; handmade ivory ceramic tile around the firebox; warm white quartz slab hearth with soft gray veining; the mantel is roughly 5 ft tall and about 6 ft wide",
+    "fireplace": "exactly the fireplace in the fireplace reference photos (images 2 and 3): a shallow white oak box surround, about 5 ft tall and 6 ft wide, mounted against a completely FLAT west wall; the wall is flush on both sides and above, with NO chimney breast, NO bump-out, NO pop-out, NO pilasters or projecting wall section; vertical white oak slats with dark reveals cover the front of the box from the floor to a thick white oak mantel shelf; the slats STOP at the underside of the mantel shelf and the mantel shelf is the top of the entire fireplace; a thin oak frame around handmade ivory ceramic tile (vertical tiles across the top, stacked tiles down the sides) around the firebox; warm white quartz slab hearth with soft gray veining set inside the dark wood inlay border in the floor; the wall above the mantel is plain flat painted wall (Accessible Beige) with no slats, no paneling, and no wood, only the single framed print",
     "bookcases": "remove both white bookcases with patterned wallpaper backs on the north wall; replace with two short runs of solid white oak floating shelves, three shelves per side, flanking the north double window, sparsely styled with stacked books, two ceramics, and one trailing plant",
     "rug": "remove the small multicolor rug; add a 9 x 12 ivory and oatmeal wool rug, low pile, subtle woven texture, no fringe, no pattern, running the long way from just in front of the hearth border to under the back legs of sofa 1",
     "art": "reduce wall art to a few large pieces: one large horizontal muted landscape print in a thin oak frame centered above the mantel on the west wall; three generously spaced pieces on the east wall with a long panoramic line drawing in the center; one vintage cocktail chart centered above the credenza on the south wall",
     "lighting": "recessed lights dimmed to a warm low glow; add a brass table lamp on the credenza and a slim brass or black floor lamp behind the sofa; warm 2700K light throughout",
     "textiles": "replace small mismatched pillows with four 22 inch pillows in ivory linen and rust velvet plus one olive green, and an oatmeal wool throw draped on sofa 1",
     "windows": "add natural woven wood roller shades, inside mount, on the west-wall windows (the single window south of the fireplace and the double window north of it, one shade per sash); the north double window stays bare",
-    "plants": "one tall olive tree in a matte terracotta pot against the south wall between the foyer arch and the credenza; remove the scattered small floor plants in plastic pots"
+    "plants": "one tall olive tree in a matte terracotta pot in the southeast corner of the room, at the east end of the south wall beside the credenza; remove the scattered small floor plants in plastic pots"
   },
   "layout": {
     "sofa_1": "floated in the middle of the room facing west toward the fireplace, its back toward the east wall with about 3 ft of walking space behind it",
@@ -48,5 +48,5 @@
   "style": "warm minimal, California mid-century, edited and uncluttered, expensive but not showroom-stiff, lived in",
   "camera": "eye level, 24mm full-frame equivalent, natural late-afternoon light from the windows plus warm lamp light, slight haze, realistic shadows",
   "output": "photorealistic interior photograph, 16:9, high detail",
-  "negative": "no slats or wood above the mantel shelf, no full-height slat wall, no extra furniture, no new wood tones, no gray or beige rug, no curtains, no fringe on the rug, no gallery wall clutter, no brick, no white mantel, no text or watermarks, no people"
+  "negative": "no chimney breast, no bump-out or pop-out wall around the fireplace, no pilasters, no slats or wood above the mantel shelf, no full-height slat wall, no extra furniture, no new wood tones, no gray or beige rug, no curtains, no fringe on the rug, no gallery wall clutter, no brick, no white mantel, no text or watermarks, no people"
 }

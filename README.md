@@ -15,5 +15,10 @@ python3 scripts/render.py c --strict   # view-c-credenza.png   (base refs/living
 `--strict` prepends "Edit the attached photo, keep the architecture and furniture exactly as shown."
 Needs `GEMINI_API_KEY`. `refs/` and the renders are git-ignored because this repo is public.
 
+Fireplace photos live at `refs/fireplace-1.jpg` and `refs/fireplace-2.jpg`.
+
+`scripts/fix_pass.py IN.png OUT.png "extra"` edits an existing render: it flattens the fireplace wall (no bump-out) and
+matches the fireplace to the photos, plus any extra instruction (e.g. moving the olive tree).
+
 To use the real new-fireplace photos, save them as `refs/fireplace-1.jpg` (in-room) and
 `refs/fireplace-2.jpg` (straight-on) and rerun; the script attaches them automatically.
