@@ -22,3 +22,13 @@ matches the fireplace to the photos, plus any extra instruction (e.g. moving the
 
 To use the real new-fireplace photos, save them as `refs/fireplace-1.jpg` (in-room) and
 `refs/fireplace-2.jpg` (straight-on) and rerun; the script attaches them automatically.
+
+## v2 brief (new furniture plan)
+
+`prompts/v2/spec.json` is the full editorial spec (two sofas in an L, console, Ficus Audrey, drapery, layered lamps).
+
+```bash
+python3 scripts/render_v2.py a   # v2-view-a-fireplace.png (west, base refs/living-3.jpg)
+python3 scripts/render_v2.py b   # v2-view-b-south.png     (south, base refs/living-4.jpg)
+python3 scripts/render_v2.py c   # v2-view-c-north.png     (north, base refs/living-1.jpg)
+```

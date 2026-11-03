@@ -1,0 +1,75 @@
+{
+  "task": "Photorealistic interior rendering, three views of the same living room, consistent finishes and furniture across all views",
+  "style": "High-end residential interior photography, warm natural light, Architectural Digest editorial quality, no CGI sheen, subtle film grain",
+  "room": {
+    "description": "Living room in a 1938 two-story bungalow, 21 feet 4 inches long (north-south) by 14 feet wide (east-west), 9 foot ceiling with simple crown molding",
+    "walls": "Sherwin-Williams Accessible Beige, matte",
+    "trim": "Benjamin Moore Ivory White, satin, original 1930s window and door casings",
+    "floor": "Natural white oak hardwood, matte finish, period inlaid dark walnut border running around the perimeter of the room",
+    "ceiling": "Flat white plaster with recessed can lights dimmed low to about 25 percent, warm 2700K"
+  },
+  "architecture": {
+    "west_wall": "Fireplace centered on the wall. Vertical white oak slat surround from floor to a white oak floating mantel shelf, slats stop at the shelf, plain painted wall above. Handmade ivory tile with slight glaze variation around the firebox, ivory quartz slab hearth. One single double-hung window south of the fireplace and one connected double window north of the fireplace, both with ivory casings and woven wood roman shades",
+    "north_wall": "Connected double window centered on the wall. Three white oak floating shelves on each side of the window, flanking it",
+    "east_wall": "Long solid wall, no windows, single doorway at the far south end",
+    "south_wall": "Small arched opening to the foyer on the west side, walnut mid-century credenza used as a bar on the east side"
+  },
+  "furniture": {
+    "sofa_east": "Greige upholstered sofa, straight track arms, tapered walnut legs, placed against the east wall facing the fireplace",
+    "sofa_north": "Matching greige sofa in the same fabric at the north end of the room facing south, floated 30 inches off the north window",
+    "layout": "The two sofas form an L. No sectional. The path from the foyer arch to the seating is open",
+    "corner_table": "Small round walnut side table at the inside corner where the two sofas meet, with a ceramic table lamp in off-white",
+    "console": "Narrow walnut console table, 13 inches deep, running the length of the north sofa directly behind it, with two matching small brass table lamps, a stack of books, and one ceramic object",
+    "coffee_table": "Oval walnut mid-century coffee table, about 50 inches long, lower shelf, in front of the east sofa",
+    "fireplace_chair": "Open-arm mid-century lounge chair, walnut frame, oatmeal upholstery, angled toward the fireplace in the northwest corner near the double window",
+    "ottoman": "Rectangular upholstered ottoman in olive green boucle, 36 by 24 inches, between the fireplace chair and the coffee table",
+    "credenza_bar": "Walnut mid-century credenza on the south wall with a turntable, a small brass dome lamp, and a curated bar of eight bottles and glassware",
+    "rug": "Large 10 by 14 foot wool flatweave rug in oatmeal with a subtle olive and rust geometric pattern, no fringe, front legs of every seat resting on it",
+    "drapery": "Floor to ceiling natural linen drapery panels on the north double window, mounted high and wide on a slim aged brass rod, panels stacked off the glass"
+  },
+  "lighting_layered": {
+    "picture_light": "Slim aged brass rechargeable picture light mounted on the wall above the mantel art, no visible cord, warm glow on the art",
+    "lamps": "Five lamps total at seated eye level all lit warm: two brass console lamps behind the north sofa, one ceramic lamp at the corner table, one brass floor lamp beside the fireplace chair, one brass dome lamp on the credenza bar",
+    "ceiling_fixture": "One semi-flush fixture centered over the seating area, 20 inch white glass drum with aged brass fitter, lit low",
+    "fire": "Small fire burning in the firebox",
+    "mood": "Late afternoon, low sun entering from the west windows, lamps on, cans dimmed, the room glows rather than being flatly lit"
+  },
+  "art": {
+    "east_wall": "One very large framed abstract painting, 72 inches wide by 48 inches tall, loose gestural brushwork in rust, olive, charcoal, and cream on a warm white ground, thin black floater frame, centered over the east sofa with the bottom edge 9 inches above the sofa back. This is the largest object in the room",
+    "mantel": "Large framed sepia-toned landscape photograph of rolling California hills, 46 inches wide, light oak frame, centered above the mantel shelf, lit by the picture light",
+    "bar_wall": "One vintage cocktail chart print in a dark walnut frame above the credenza, nothing else on that wall",
+    "mantel_shelf": "Nearly bare, one small ceramic vessel placed off center",
+    "shelves": "Floating shelves styled sparsely, 60 percent books with spines in muted tones, 40 percent objects, a trailing pothos on an upper shelf, one small leaning framed sketch"
+  },
+  "plants": {
+    "tall": "Floor to ceiling Ficus Audrey, about 8 feet tall, in a matte off-white cylinder planter, placed in the northwest corner at the west end of the console behind the north sofa",
+    "mid": "Medium potted plant in a matte black ceramic pot on the credenza bar",
+    "trailing": "Pothos trailing from an upper floating shelf"
+  },
+  "accessories": {
+    "pillows": "Each sofa has three pillows: one rust velvet, one olive linen, one cream textured. No more than three per sofa",
+    "throw": "One chunky oatmeal wool throw folded over the arm of the east sofa",
+    "hearth": "Blackened steel fireplace tool set and a leather firewood carrier with split oak beside the hearth",
+    "coffee_table_styling": "Two stacked books, a small brass bowl, a low ceramic vase with a few dried branches"
+  },
+  "color_palette": {
+    "base": "Accessible Beige walls, ivory trim, natural white oak, greige upholstery, walnut furniture",
+    "accents": "Rust, olive green, and charcoal, each repeated at least three times across pillows, rug, ottoman, and art",
+    "metals": "Aged brass for all lamps and the picture light, blackened steel at the hearth only"
+  },
+  "views": [
+    {
+      "name": "View A, toward the fireplace",
+      "camera": "Standing at the east wall, 5 foot height, 24mm lens, looking west across the coffee table at the fireplace. Both windows flanking the fireplace are visible, the single window to the left (south) and the double window to the right (north). The north sofa, console, lamps, and the tall plant are visible on the right edge of frame"
+    },
+    {
+      "name": "View B, toward the south wall",
+      "camera": "Standing near the north window, 5 foot height, 24mm lens, looking south. The east sofa and large abstract painting are on the left, the credenza bar and foyer arch are ahead, the fireplace and slat surround are on the right"
+    },
+    {
+      "name": "View C, toward the north wall",
+      "camera": "Standing just inside the foyer arch, 5 foot height, 24mm lens, looking north down the length of the room. Fireplace on the left, east sofa and large painting on the right, north sofa with console, drapery, lamps, and tall plant at the far end"
+    }
+  ],
+  "negative_prompt": "No flat uniform lighting, no sectional sofa, no fringe on rug, no fake-looking olive tree, no visible cords, no gallery wall clusters, no clutter on the mantel, no people, no text artifacts, no lens distortion, no oversaturated colors, no missing windows on the fireplace wall"
+}
