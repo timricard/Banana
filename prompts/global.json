@@ -1,0 +1,42 @@
+{
+  "task": "image_edit",
+  "preserve_from_reference": [
+    "room dimensions and proportions (approx 21 ft x 14 ft, 8 ft ceiling)",
+    "window and door locations, white painted trim, arched doorways",
+    "light oak hardwood floor with the dark wood inlay border around the hearth",
+    "recessed ceiling lights",
+    "existing two greige sofas and matching loveseat (all the same fabric); no sectional, no new seating",
+    "existing walnut mid-century coffee table with lower shelf",
+    "existing walnut mid-century credenza used as a bar with record player",
+    "existing walnut mid-century arm chair with gray cushion",
+    "existing gray knit pouf",
+    "existing walnut clip-on arm tray tables on the sofa"
+  ],
+  "replace": {
+    "fireplace": "the new design from the fireplace reference photos: vertical white oak slat surround with a thick white oak floating mantel shelf, handmade ivory ceramic tile around the firebox, warm white quartz slab hearth with soft gray veining",
+    "bookcases": "remove both white bookcases with patterned wallpaper backs; replace with two short runs of solid white oak floating shelves, three shelves per side, flanking the end window, sparsely styled with stacked books, two ceramics, and one trailing plant",
+    "rug": "remove the small multicolor rug; add a 9 x 12 ivory and oatmeal wool rug, low pile, subtle woven texture, no fringe, no pattern, running the long way from just in front of the hearth border to under the back legs of sofa 1",
+    "art": "reduce wall art to a few large pieces: one large horizontal muted landscape print in a thin oak frame centered above the mantel; three generously spaced pieces on the opposite long wall with a long panoramic line drawing in the center; one vintage cocktail chart centered above the credenza",
+    "lighting": "recessed lights dimmed to a warm low glow; add a brass table lamp on the credenza and a slim brass or black floor lamp behind the sofa; warm 2700K light throughout",
+    "textiles": "replace small mismatched pillows with four 22 inch pillows in ivory linen and rust velvet plus one olive green, and an oatmeal wool throw draped on sofa 1",
+    "windows": "add natural woven wood roller shades, inside mount, on the two windows flanking the fireplace; end window stays bare",
+    "plants": "one tall olive tree in a matte terracotta pot near the arched doorway; remove the scattered small floor plants in plastic pots"
+  },
+  "layout": {
+    "sofa_1": "pulled off the wall and centered on the fireplace, parallel to the hearth, about 3 ft of walking space behind it",
+    "sofa_2": "perpendicular to sofa 1 at the end-window side, forming an open L with it, also floated off the wall",
+    "loveseat": "at the credenza end of the room, turned to face into the seating group",
+    "arm_chair_and_pouf": "walnut arm chair near the end window beside sofa 2, pouf in front of it",
+    "coffee_table": "centered between sofa 1 and hearth with 16 to 18 inches of clearance"
+  },
+  "palette": {
+    "walls": "Sherwin-Williams Accessible Beige, flat finish",
+    "trim_and_ceiling": "Benjamin Moore Ivory White",
+    "woods": "white oak on fireplace, shelves, and floor; walnut on all furniture; no other wood tones",
+    "accents": "rust, terracotta, olive, oatmeal, ivory"
+  },
+  "style": "warm minimal, California mid-century, edited and uncluttered, expensive but not showroom-stiff, lived in",
+  "camera": "eye level, 24mm full-frame equivalent, natural late-afternoon light from the windows plus warm lamp light, slight haze, realistic shadows",
+  "output": "photorealistic interior photograph, 16:9, high detail",
+  "negative": "no extra furniture, no new wood tones, no gray or beige rug, no curtains, no fringe on the rug, no gallery wall clutter, no brick, no white mantel, no text or watermarks, no people"
+}
