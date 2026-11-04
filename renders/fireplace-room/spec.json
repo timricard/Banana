@@ -1,0 +1,78 @@
+{
+  "task": "Photorealistic interior rendering, three views of the same living room, consistent finishes and furniture across all views. High-budget full redesign. Walls, doorways, windows, and fireplace are unchanged from the existing room",
+  "style": "High-end residential interior photography, Architectural Digest editorial quality, warm late afternoon natural light mixed with lamp light, no CGI sheen, subtle film grain, restrained and calm",
+  "design_concept": "A 1938 California bungalow interpreted through a Scandinavian-Japanese lens. Hand-troweled limewash walls, pale white oak, walnut, undyed wool, blackened bronze, one commissioned painting. The room reads as three zones along its length: arrival and bar at the south end, fireplace conversation group in the middle, library window seat at the north end",
+  "room": {
+    "description": "Living room 21 feet 4 inches long (north-south) by 14 feet wide (east-west), 9 foot ceiling with simple original crown molding",
+    "walls": "Hand-troweled limewash in a warm stone tone, subtle movement and variation in the surface, matte",
+    "trim": "Original 1930s window and door casings and baseboards in soft ivory satin",
+    "floor": "Refinished white oak in a matte, nearly raw pale Scandinavian tone, with the original dark walnut inlay border running around the perimeter of the room, fully visible outside the rug",
+    "ceiling": "Limewash in a slightly lighter tone than the walls. Only two small 2 inch trimless recessed fixtures remain, aimed at the mantel art and the east wall painting. No other can lights"
+  },
+  "architecture": {
+    "west_wall": "Fireplace centered on the wall, unchanged. Vertical white oak slat surround from floor to a white oak floating mantel shelf, slats stop at the shelf, plain limewash wall above. Handmade ivory tile with slight glaze variation around the firebox, ivory quartz slab hearth. One single double-hung window south of the fireplace and one connected double window north of the fireplace, both with ivory casings and inside-mount Belgian linen roman shades",
+    "north_wall": "Connected double window centered on the wall. Full-height custom white oak built-in cabinetry on both sides of the window, scribed to the floor. Closed flat-panel cabinets below at 30 inches, open adjustable shelves above with a thin warm LED strip at the back edge of each shelf. A deep upholstered window seat, 24 inches deep, connects the two cabinets under the window, with a thick oatmeal mohair cushion and two bolsters. One aged brass swing-arm sconce mounted above each end of the window seat. Floor-to-ceiling natural Belgian linen drapery panels on a slim blackened bronze rod mounted at the crown, stacked off the glass on each side of the window",
+    "east_wall": "Long solid wall, no windows, single doorway at the far south end",
+    "south_wall": "Small arched opening to the foyer on the west side. On the east side, a tall vintage Scandinavian walnut bar cabinet with doors open showing a mirrored, lit interior with bottles and glassware"
+  },
+  "furniture": {
+    "sofa": "One 96 inch low-back deep-seat sofa in dense oatmeal boucle, slim walnut plinth base, centered on the east wall facing the fireplace",
+    "lounge_chairs": "A pair of Hans Wegner CH25 lounge chairs in natural oak with natural paper cord, placed on either side of the fireplace at 45 degrees, facing the sofa, with the slat surround fully visible between them",
+    "coffee_table": "Low oval solid walnut coffee table, 54 inches long, sculptural rounded edge, centered between the sofa and the chairs",
+    "side_tables": "A small round blackened bronze side table beside each lounge chair, and a small walnut drum table at each end of the sofa",
+    "hearth_seat": "A long low walnut bench with a leather cushion placed parallel to the hearth, used for overflow seating",
+    "rug": "Custom 10 by 14 foot hand-knotted undyed wool rug in an irregular oatmeal and charcoal weave, no fringe, no pattern beyond the natural weave, sized to sit inside the walnut inlay border with the oak floor and border visible all around it",
+    "floor_vessel": "One very large hand-thrown unglazed ceramic floor vessel in the corner beside the foyer arch, holding tall olive branches"
+  },
+  "lighting_layered": {
+    "picture_light": "Hardwired 30 inch aged brass picture light mounted on the wall above the mantel art, no visible cord, warm glow on the art",
+    "ceiling_fixture": "One sculptural plaster semi-flush fixture, about 24 inches, centered over the seating group, lit low and warm",
+    "sconces": "Two aged brass swing-arm sconces at the window seat, lit",
+    "shelf_lighting": "Thin warm LED strips at the back of each built-in shelf, lit",
+    "lamps": "Ceramic table lamp with a linen shade on each walnut drum table at the ends of the sofa, and a tall Noguchi Akari paper floor lamp beside the north lounge chair, all lit warm",
+    "fire": "Small fire burning in the firebox",
+    "mood": "Late afternoon, low sun entering from the west windows, every lamp and sconce lit, the room glows in layers rather than being flatly lit"
+  },
+  "art": {
+    "east_wall": "One very large commissioned abstract painting, 72 inches wide by 54 inches tall, earthy gestural brushwork in rust, olive, charcoal, and cream on a warm ground, blackened oak floater frame, centered over the sofa with the bottom edge 9 inches above the sofa back. This is the largest and most important object in the room",
+    "mantel": "A single large round antique mirror with an aged brass frame, 40 inches in diameter, centered above the mantel shelf, lit by the picture light, reflecting the north window light",
+    "bar_wall": "One vintage botanical print in a dark walnut frame above the bar cabinet, nothing else on that wall",
+    "mantel_shelf": "Bare except for one small dark ceramic vessel placed off center",
+    "shelves": "Built-in shelves styled sparsely: books with jackets removed in muted tones, a few pieces of hand-thrown pottery, two small framed black and white photographs, one small sculptural object per shelf at most"
+  },
+  "plants": {
+    "tall": "A 9 foot Ficus Audrey in a large hand-thrown terracotta pot, placed in the northwest corner beside the built-ins, near the double window",
+    "mounted": "A staghorn fern mounted on a walnut board on the wall in the southeast corner near the doorway",
+    "branches": "Tall olive branches in the large floor vessel by the foyer arch"
+  },
+  "accessories": {
+    "pillows": "Three pillows on the sofa only: one rust mohair, one olive linen, one cream textured. Two bolsters on the window seat. No pillows on the lounge chairs",
+    "throw": "One heavy oatmeal wool throw folded over one arm of the sofa",
+    "hearth": "Blackened steel fireplace tool set standing beside the hearth and split oak firewood stacked in a blackened bronze cradle",
+    "coffee_table_styling": "One large art book, a low dark ceramic bowl, a small bronze object. Nothing else",
+    "window_seat_styling": "A single open book and a small ceramic cup on the window seat"
+  },
+  "color_palette": {
+    "base": "Warm stone limewash walls, ivory trim, pale white oak floor and built-ins, walnut furniture, oatmeal upholstery",
+    "accents": "Rust, olive green, and charcoal, each repeated across pillows, painting, rug weave, and pottery",
+    "metals": "Aged brass for the picture light, sconces, and mirror frame; blackened bronze for the drapery rod, side tables, and firewood cradle; blackened steel at the hearth only"
+  },
+  "views": [
+    {
+      "id": "A",
+      "name": "View A, toward the fireplace",
+      "camera": "Standing at the east wall, 5 foot height, 24mm lens, looking west across the coffee table at the fireplace. Both windows flanking the fireplace are visible, the single window to the left (south) and the double window to the right (north). Both lounge chairs, the hearth bench, the round mirror, and the picture light are in frame. The built-ins and window seat are partly visible on the right edge of frame"
+    },
+    {
+      "id": "B",
+      "name": "View B, toward the south wall",
+      "camera": "Standing at the north window seat, 5 foot height, 24mm lens, looking south down the length of the room. The sofa and large painting are on the left, the bar cabinet, botanical print, floor vessel, and foyer arch are ahead, the fireplace, slat surround, and lounge chairs are on the right"
+    },
+    {
+      "id": "C",
+      "name": "View C, toward the north wall",
+      "camera": "Standing just inside the foyer arch, 5 foot height, 24mm lens, looking north down the length of the room. Fireplace and lounge chairs on the left, sofa and large painting on the right, and at the far end the full library wall: oak built-ins on both sides of the double window, the upholstered window seat, the linen drapery, the swing-arm sconces, the lit shelves, and the Ficus Audrey in the northwest corner"
+    }
+  ],
+  "negative_prompt": "No flat uniform lighting, no CGI or 3D-render sheen, no plastic-looking materials, no oversaturated colors, no extra recessed can lights, no TV, no clutter, no extra art or wall decor beyond what is specified, no pillows on the lounge chairs, no rug fringe or printed rug pattern, no rug covering the walnut inlay border, no changes to wall, doorway, window, or fireplace positions, no fisheye distortion or converging verticals, no people, no text, no watermark"
+}
