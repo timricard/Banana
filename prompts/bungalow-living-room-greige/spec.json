@@ -1,0 +1,232 @@
+{
+  "interior_render": {
+    "meta": {
+      "spec_version": "1.0.0",
+      "title": "1938 California Bungalow Living Room, Cozy Redesign (Greige Sofa Scheme)",
+      "task": "Photorealistic interior rendering, three views of the same living room, consistent finishes and furniture across all views. Cozy, lived-in redesign using mostly existing furniture. Walls, doorways, windows, and fireplace are unchanged.",
+      "render_set": [
+        "view_a_fireplace",
+        "view_b_south",
+        "view_c_north"
+      ],
+      "consistency_rule": "Every view shows the same room, objects, materials, colors and light. Any object in more than one view must match exactly in shape, size, color and placement."
+    },
+    "style": {
+      "medium": "warm residential interior photography",
+      "keywords": [
+        "cozy",
+        "layered",
+        "lived-in, not staged",
+        "texture and lamplight over polish"
+      ],
+      "finish": "no CGI sheen, subtle film grain, natural lens falloff, true-to-life material texture",
+      "aspect_ratio": "3:2 landscape"
+    },
+    "design_concept": "A 1938 California bungalow living room styled for comfort. Three zones along its length: credenza bar at the south end, fireplace conversation group in the middle around a greige sofa, and a reading library with bookshelf built-ins at the north end. The sofa is the quiet center; color comes from the rug, the lounge chairs, the pillows, and the art.",
+    "room": {
+      "dimensions": {
+        "length_ns": "21 ft 4 in",
+        "width_ew": "14 ft",
+        "ceiling_height": "9 ft"
+      },
+      "ceiling": "Flat white plaster, simple original crown molding, existing recessed cans dimmed to about 20 percent, warm 2700K, barely visible",
+      "walls": "Sherwin-Williams Accessible Beige, matte",
+      "trim": "Original 1930s window and door casings and baseboards in Benjamin Moore Ivory White, satin",
+      "floor": "Natural white oak hardwood, matte, with the original dark walnut inlay border running around the room perimeter, visible outside the rug on all sides"
+    },
+    "architecture": {
+      "arch_west_wall": {
+        "fireplace": "Centered on the west wall, unchanged. Vertical white oak slat surround from floor up to a white oak floating mantel shelf; slats stop at the shelf, plain painted wall above. Handmade ivory tile with slight glaze variation around the firebox. Ivory quartz slab hearth.",
+        "window_south": "One single double-hung window south of the fireplace, ivory casing, natural woven wood roman shade raised partway",
+        "window_north": "One connected double window north of the fireplace, ivory casing, natural woven wood roman shades raised partway"
+      },
+      "arch_north_wall": {
+        "window": "Connected double window centered on the wall, woven wood shade, floor-to-ceiling natural linen drapery panels on a slim bronze rod mounted at the crown, stacked off the glass",
+        "bookshelves": "One tall built-in style light oak bookshelf unit on each side of the window: flat-panel closed cabinet doors on the bottom third, open shelves above, simple oak toe-kick base, oak trim board across the top meeting the window casing so both units read as one built-in wall",
+        "shelf_light": "Warm LED strip under one upper shelf on each unit, lit"
+      },
+      "arch_east_wall": "Long solid wall, no windows, one cased doorway at the far south end",
+      "arch_south_wall": {
+        "foyer_arch": "Small arched opening to the foyer on the west side",
+        "bar_zone": "East side holds the credenza bar"
+      }
+    },
+    "furniture": {
+      "f_sofa": {
+        "description": "The existing greige upholstered sofa, about 90 in wide, straight track arms, loose back cushions, tapered walnut legs. Warm greige, not gray",
+        "placement": "Centered on the east wall, facing the fireplace",
+        "role": "quiet neutral center; reads as intentional against the surrounding color, not washed out"
+      },
+      "f_lounge_chairs": {
+        "description": "Pair of matching mid-century lounge chairs with exposed walnut frames; the south chair upholstered in rust wool, the north chair in deep forest green wool",
+        "placement": "One on each side of the fireplace, turned 45 degrees toward the sofa, leaving the slat surround fully visible between them; rust chair south of the fireplace, forest green chair north of it"
+      },
+      "f_coffee_table": {
+        "description": "Oval walnut mid-century coffee table, about 54 in long, lower shelf",
+        "placement": "Centered between the sofa and the lounge chairs, long axis north-south"
+      },
+      "f_ottoman": {
+        "description": "Low rectangular upholstered ottoman, rust boucle, 36 x 24 in",
+        "placement": "Near the hearth between the two lounge chairs, used as a footrest; low enough that the hearth and lower slats still read"
+      },
+      "f_side_tables": {
+        "description": "Small round walnut side table at each end of the sofa, each holding a ceramic table lamp in dark olive glaze with a linen shade; a small walnut stool beside the south (rust) lounge chair",
+        "placement": "Flanking the sofa arms; stool beside the rust lounge chair"
+      },
+      "f_reading_chair": {
+        "description": "Single upholstered armchair in olive green linen with a sheepskin draped over the back",
+        "placement": "In front of the north window between the two bookshelf units, angled toward the fireplace; tall aged brass floor lamp behind it; small round walnut side table beside it"
+      },
+      "f_credenza_bar": {
+        "description": "Existing walnut mid-century credenza used as a bar, topped with a turntable, a small brass dome lamp, eight bottles with glassware, and a medium plant in a matte black pot",
+        "placement": "East side of the south wall"
+      },
+      "f_rug": {
+        "description": "Vintage-style Turkish wool rug, 10 x 14 ft, warm oatmeal ground, faded rust and indigo pattern, low pile, no fringe",
+        "placement": "Long side running north-south under the conversation group, inside the walnut inlay border with oak floor visible all around it"
+      },
+      "f_floor_vessel": {
+        "description": "Large unglazed ceramic floor vessel holding tall dried branches",
+        "placement": "Beside the foyer arch, inside the room"
+      }
+    },
+    "art": {
+      "art_east_wall": "One large framed abstract landscape on canvas, 66 in wide x 44 in tall, deep indigo, rust, ochre and cream, with enough indigo that it reads as the darkest, richest object on the wall; simple dark walnut floater frame; centered over the sofa with its bottom edge 9 in above the sofa back",
+      "art_mantel": "Wide framed sepia landscape photograph of rolling California hills, 44 in wide, light oak frame, centered above the mantel shelf, lit by the picture light",
+      "art_bar_wall": "One vintage cocktail chart print in a dark walnut frame above the credenza; nothing else on that wall",
+      "art_mantel_shelf": "One small dark ceramic vessel and a short stack of three books, placed off center",
+      "art_shelves": "Real reader's shelves: books with jackets off in warm muted tones filling about two thirds of each shelf, a few pieces of pottery, two framed family photographs, one small plant, a wooden bowl"
+    },
+    "plants": {
+      "p_ficus": "Tall Ficus Audrey in a large terracotta pot in the northwest corner beside the west bookshelf unit; canopy just below the crown molding (about 8 ft overall)",
+      "p_bar_plant": "Medium plant in a matte black pot on the credenza bar",
+      "p_pothos": "Small pothos trailing from an upper bookshelf",
+      "p_branches": "Tall dried branches in the floor vessel by the foyer arch"
+    },
+    "accessories": {
+      "acc_sofa_pillows": "Four pillows on the greige sofa: one deep indigo velvet, one rust velvet, one olive linen, one cream and rust stripe",
+      "acc_chair_pillows": "One cream pillow on each lounge chair",
+      "acc_throws": "Chunky rust wool throw draped loosely over the north arm of the sofa; sheepskin over the back of the reading chair",
+      "acc_hearth": "Blackened steel fireplace tool set beside the hearth; split oak firewood in a leather carrier",
+      "acc_coffee_table": "Stack of two books, dark ceramic bowl, small brass tray, lit candle in a low holder",
+      "acc_reading_nook": "Open book and a mug on the side table beside the reading chair"
+    },
+    "lighting": {
+      "time_of_day": "Early evening, last of the daylight through the north and west windows, soft and cool against warm interior light",
+      "picture_light": "Slim aged brass plug-in picture light above the mantel art, cord hidden, warm glow on the photograph",
+      "lamps": "Dark olive glazed ceramic table lamps with linen shades at both ends of the sofa, tall aged brass floor lamp behind the reading chair, brass dome lamp on the credenza; all lit warm",
+      "shelf_lighting": "Warm LED strip under one upper shelf on each bookshelf unit, lit",
+      "fire": "Full fire burning in the firebox, warm flicker on hearth, tile and nearby surfaces",
+      "cans": "Recessed cans at about 20 percent, 2700K, barely on",
+      "mood": "Pools of warm lamplight with soft shadow between them; the room glows warm and inviting"
+    },
+    "color_palette": {
+      "base": [
+        "Accessible Beige walls",
+        "Ivory White trim",
+        "natural white oak floor",
+        "light oak bookshelves",
+        "walnut furniture",
+        "warm greige sofa"
+      ],
+      "accents": [
+        "rust",
+        "forest green",
+        "olive",
+        "ochre",
+        "indigo"
+      ],
+      "accent_rule": "Accents repeat across the rug, lounge chairs, ottoman, pillows, lamps and art; the greige sofa looks intentional against them, not washed out",
+      "metals": {
+        "aged_brass": "all lamps and the picture light",
+        "bronze": "drapery rod",
+        "blackened_steel": "hearth tools only"
+      }
+    },
+    "views": [
+      {
+        "id": "view_a_fireplace",
+        "name": "View A, toward the fireplace (west)",
+        "camera": {
+          "position": "At the east wall on the sofa centerline, lens just above the sofa back",
+          "height": "5 ft",
+          "focal_length_mm": 24,
+          "direction": "Looking west over the back of the greige sofa at the fireplace",
+          "verticals": "Straight, two-point perspective corrected"
+        },
+        "composition": {
+          "foreground": "Top of the greige sofa back and pillows along the bottom edge",
+          "midground": "Coffee table with styling, rug, rust boucle ottoman by the hearth, lounge chairs at 45 degrees on either side of the fireplace (rust on the left, forest green on the right), walnut stool beside the rust chair",
+          "background": "Fireplace with oak slat surround, ivory tile, quartz hearth and fire; mantel shelf styling; sepia photograph lit by the brass picture light; single window on the left (south) and double window on the right (north) with woven shades and evening light",
+          "edges": "Hint of the foyer arch at far left, hint of the north bookshelf and Ficus at far right"
+        }
+      },
+      {
+        "id": "view_b_south",
+        "name": "View B, toward the south wall",
+        "camera": {
+          "position": "At the north window beside the reading chair",
+          "height": "5 ft",
+          "focal_length_mm": 24,
+          "direction": "Looking south down the length of the room",
+          "verticals": "Straight, two-point perspective corrected"
+        },
+        "composition": {
+          "left_east": "Greige sofa with pillows and rust throw, olive ceramic lamps, large abstract painting above; east doorway at the far end",
+          "ahead_south": "Credenza bar on the left side of the far wall with turntable, brass dome lamp, bottles, glassware and black-potted plant, cocktail chart print above; floor vessel with dried branches beside the foyer arch on the right side of the far wall",
+          "right_west": "Double window, forest green lounge chair, fireplace with slat surround, fire, mantel photograph and picture light, ottoman, rust lounge chair, then the single window",
+          "center": "Rug, coffee table, walnut inlay border along the floor edges"
+        }
+      },
+      {
+        "id": "view_c_north",
+        "name": "View C, toward the north wall",
+        "camera": {
+          "position": "Just inside the foyer arch",
+          "height": "5 ft",
+          "focal_length_mm": 24,
+          "direction": "Looking north down the length of the room",
+          "verticals": "Straight, two-point perspective corrected"
+        },
+        "composition": {
+          "left_west": "Single window, rust lounge chair, fireplace with fire, slat surround, mantel photograph and picture light, ottoman, forest green lounge chair, double window",
+          "right_east": "Greige sofa with pillows and rust throw, olive ceramic lamps, large abstract painting above",
+          "center": "Rug, coffee table, walnut inlay border",
+          "far_end_north": "Library wall: two light oak bookshelf units with LED strips glowing, flanking the double window with linen drapery; olive linen reading chair with sheepskin, brass floor lamp lit behind it, side table with open book and mug; Ficus Audrey in terracotta in the northwest (left) corner; pothos trailing from an upper shelf"
+        }
+      }
+    ],
+    "negative_prompt": [
+      "flat uniform lighting",
+      "bright recessed can lights",
+      "sectional sofa",
+      "blue sofa",
+      "cool gray sofa",
+      "fringe on rug",
+      "fake-looking plants",
+      "visible cords",
+      "gallery wall clusters",
+      "window seat",
+      "limewash walls",
+      "mirror over the mantel",
+      "missing windows on the fireplace wall",
+      "changes to wall positions, doorways or fireplace",
+      "people",
+      "text artifacts",
+      "lens distortion",
+      "oversaturated colors",
+      "CGI sheen or plastic-looking surfaces",
+      "furniture that changes between views"
+    ],
+    "controls": {
+      "lock_architecture": true,
+      "lock_furniture_and_placement": true,
+      "lock_materials_and_palette": true,
+      "lock_lighting_state": true,
+      "allow_per_view_change": [
+        "views[].camera",
+        "views[].composition"
+      ]
+    }
+  }
+}
