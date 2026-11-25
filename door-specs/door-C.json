@@ -1,0 +1,40 @@
+{
+  "marketing_image_edit": {
+    "meta": {
+      "spec_version": "1.0.0",
+      "title": "Front door variant C: TM Cobb California Craftsman style"
+    },
+    "task": "image_edit",
+    "base_image": "./IMG_1545.jpeg",
+    "edit_scope": "front door slab and handle set only",
+    "preserve": [
+      "charcoal lap siding and cream trim, exact colors",
+      "cream door casing and portico surround",
+      "house numbers, brick porch and steps, chairs, plants",
+      "camera angle, lighting, overcast sky"
+    ],
+    "style": "photorealistic, natural daylight, no text, no people",
+    "negative": [
+      "changed siding color",
+      "added windows",
+      "arched door",
+      "warped trim",
+      "extra doors"
+    ],
+    "subject": {
+      "type": "front_door",
+      "design": "Craftsman wood door, 3 tall vertical lites across the upper third, dentil shelf, two tall vertical flat panels below",
+      "finish": "painted muted brick red, satin",
+      "glass": "reeded obscure glass",
+      "size": "same opening, single 36 x 80 door, no sidelights",
+      "hardware": "matte black handle set with deadbolt, left side as shown"
+    },
+    "controls": {
+      "lock_everything_outside_edit_scope": true,
+      "lock_camera": true,
+      "lock_lighting": true,
+      "lock_colors_outside_door": true,
+      "output_resolution": "match base image aspect ratio 3:4"
+    }
+  }
+}
